@@ -12,10 +12,14 @@
       "folder_name": "Abandoned Mine Entrance",
       "title": "Abandoned Mine Entrance",
       "smart_tags": [
+        "abandoned",
         "cave",
         "desert",
+        "entrance",
         "fire",
+        "fortification",
         "hell",
+        "mine",
         "night",
         "ruins"
       ],
@@ -242,14 +246,24 @@
           ]
         }
       ],
-      "searchable_text": "Abandoned Mine Entrance Abandoned Mine Entrance night ruins cave hell fire desert"
+      "searchable_text": "Abandoned Mine Entrance Abandoned Mine Entrance night ruins cave hell fire desert",
+      "czepeku_tags": [
+        "entrance",
+        "abandoned",
+        "mine",
+        "fortification"
+      ]
     },
     {
       "id": "abyssal-fall---animated-battlemap",
       "folder_name": "Abyssal Fall - Animated Battlemap",
       "title": "Abyssal Fall - Animated Battlemap",
       "smart_tags": [
-        "hell"
+        "bones",
+        "chasm",
+        "corpse",
+        "hell",
+        "underwater"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -300,13 +314,23 @@
           ]
         }
       ],
-      "searchable_text": "Abyssal Fall - Animated Battlemap Abyssal Fall - Animated Battlemap hell"
+      "searchable_text": "Abyssal Fall - Animated Battlemap Abyssal Fall - Animated Battlemap hell",
+      "czepeku_tags": [
+        "underwater",
+        "corpse",
+        "bones",
+        "chasm"
+      ]
     },
     {
       "id": "adventurers-guildhall",
       "folder_name": "Adventurers Guildhall",
       "title": "Adventurer's Guildhall",
       "smart_tags": [
+        "complex",
+        "fortification",
+        "interior exterior",
+        "quarters",
         "spooky",
         "swamp",
         "urban"
@@ -565,15 +589,23 @@
           ]
         }
       ],
-      "searchable_text": "Adventurers Guildhall Adventurer's Guildhall spooky urban swamp"
+      "searchable_text": "Adventurers Guildhall Adventurer's Guildhall spooky urban swamp",
+      "czepeku_tags": [
+        "fortification",
+        "interior exterior",
+        "quarters",
+        "complex"
+      ]
     },
     {
       "id": "airships",
       "folder_name": "Airships",
       "title": "Cze and Peku Airships Part 1!",
       "smart_tags": [
+        "airship",
         "fire",
         "ship",
+        "sky",
         "urban",
         "weather"
       ],
@@ -890,7 +922,11 @@
           ]
         }
       ],
-      "searchable_text": "Airships Cze and Peku Airships Part 1! urban fire ship weather"
+      "searchable_text": "Airships Cze and Peku Airships Part 1! urban fire ship weather",
+      "czepeku_tags": [
+        "airship",
+        "sky"
+      ]
     },
     {
       "id": "ancient-hydra-lair",
@@ -898,8 +934,13 @@
       "title": "Ancient Hydra Lair",
       "smart_tags": [
         "arcane",
+        "blood",
+        "canyon",
+        "cavern",
         "desert",
+        "lair",
         "night",
+        "ruin",
         "ruins",
         "ship",
         "winter"
@@ -1136,7 +1177,14 @@
           ]
         }
       ],
-      "searchable_text": "Ancient Hydra Lair Ancient Hydra Lair night winter ruins ship arcane desert"
+      "searchable_text": "Ancient Hydra Lair Ancient Hydra Lair night winter ruins ship arcane desert",
+      "czepeku_tags": [
+        "blood",
+        "ruin",
+        "cavern",
+        "canyon",
+        "lair"
+      ]
     },
     {
       "id": "ancient-wizard-lair",
@@ -1144,8 +1192,12 @@
       "title": "Ancient Wizard's Lair",
       "smart_tags": [
         "arcane",
+        "complex",
+        "lair",
+        "magic",
         "ruins",
-        "ship"
+        "ship",
+        "sky"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -1334,13 +1386,26 @@
           ]
         }
       ],
-      "searchable_text": "Ancient Wizard Lair Ancient Wizard's Lair ship arcane ruins"
+      "searchable_text": "Ancient Wizard Lair Ancient Wizard's Lair ship arcane ruins",
+      "czepeku_tags": [
+        "magic",
+        "lair",
+        "sky",
+        "complex"
+      ]
     },
     {
       "id": "annis-hag-lair---animated-battlemap",
       "folder_name": "Annis Hag Lair - Animated Battlemap",
       "title": "Annis Hag Lair - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "bones",
+        "hill",
+        "lair",
+        "mountain",
+        "potion",
+        "wasteland"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -1386,13 +1451,23 @@
           ]
         }
       ],
-      "searchable_text": "Annis Hag Lair - Animated Battlemap Annis Hag Lair - Animated Battlemap "
+      "searchable_text": "Annis Hag Lair - Animated Battlemap Annis Hag Lair - Animated Battlemap ",
+      "czepeku_tags": [
+        "mountain",
+        "hill",
+        "wasteland",
+        "lair",
+        "bones",
+        "potion"
+      ]
     },
     {
       "id": "antlion-canyon",
       "folder_name": "Antlion Canyon",
       "title": "Antlion Canyon",
       "smart_tags": [
+        "canyon",
+        "creature",
         "desert",
         "fire",
         "hell",
@@ -1599,14 +1674,24 @@
           ]
         }
       ],
-      "searchable_text": "Antlion Canyon Antlion Canyon winter fire desert hell"
+      "searchable_text": "Antlion Canyon Antlion Canyon winter fire desert hell",
+      "czepeku_tags": [
+        "canyon",
+        "creature",
+        "desert"
+      ]
     },
     {
       "id": "arctic-expedition---animated-battlemap",
       "folder_name": "Arctic Expedition - Animated Battlemap",
       "title": "Arctic Expedition - Animated Battlemap",
       "smart_tags": [
+        "cliff",
+        "frozen",
         "night",
+        "ocean",
+        "ship",
+        "snow",
         "winter"
       ],
       "has_animated": true,
@@ -1788,14 +1873,24 @@
           ]
         }
       ],
-      "searchable_text": "Arctic Expedition - Animated Battlemap Arctic Expedition - Animated Battlemap night winter"
+      "searchable_text": "Arctic Expedition - Animated Battlemap Arctic Expedition - Animated Battlemap night winter",
+      "czepeku_tags": [
+        "ship",
+        "snow",
+        "frozen",
+        "cliff",
+        "ocean"
+      ]
     },
     {
       "id": "baba-yaga's-domain",
       "folder_name": "Baba Yaga's Domain",
       "title": "Baba Yaga's Domain",
       "smart_tags": [
+        "building",
         "fire",
+        "forest",
+        "river",
         "underwater"
       ],
       "has_animated": false,
@@ -2048,14 +2143,21 @@
           ]
         }
       ],
-      "searchable_text": "Baba Yaga's Domain Baba Yaga's Domain fire underwater"
+      "searchable_text": "Baba Yaga's Domain Baba Yaga's Domain fire underwater",
+      "czepeku_tags": [
+        "forest",
+        "river",
+        "building"
+      ]
     },
     {
       "id": "beach-town---animated-battlemap",
       "folder_name": "Beach Town - Animated Battlemap",
       "title": "Beach Town - Animated Battlemap",
       "smart_tags": [
+        "beach",
         "night",
+        "shore",
         "urban"
       ],
       "has_animated": true,
@@ -2151,14 +2253,22 @@
           ]
         }
       ],
-      "searchable_text": "Beach Town - Animated Battlemap Beach Town - Animated Battlemap night urban"
+      "searchable_text": "Beach Town - Animated Battlemap Beach Town - Animated Battlemap night urban",
+      "czepeku_tags": [
+        "beach",
+        "urban",
+        "shore"
+      ]
     },
     {
       "id": "beached-kraken",
       "folder_name": "Beached Kraken",
       "title": "Beached Kraken",
       "smart_tags": [
+        "beach",
         "cave",
+        "corpse",
+        "creature",
         "gore",
         "ship",
         "underwater"
@@ -2379,7 +2489,12 @@
           ]
         }
       ],
-      "searchable_text": "Beached Kraken Beached Kraken cave underwater ship gore"
+      "searchable_text": "Beached Kraken Beached Kraken cave underwater ship gore",
+      "czepeku_tags": [
+        "creature",
+        "corpse",
+        "beach"
+      ]
     },
     {
       "id": "blue-dragon-lair",
@@ -2387,13 +2502,17 @@
       "title": "Blue Dragon Lair",
       "smart_tags": [
         "arcane",
+        "canyon",
         "cave",
         "desert",
+        "entrance",
         "fire",
         "gore",
         "hell",
         "holy",
         "night",
+        "ruin",
+        "temple",
         "underwater",
         "weather",
         "winter"
@@ -2712,7 +2831,14 @@
           ]
         }
       ],
-      "searchable_text": "Blue Dragon Lair Blue Dragon Lair night cave fire weather arcane gore hell winter holy underwater desert"
+      "searchable_text": "Blue Dragon Lair Blue Dragon Lair night cave fire weather arcane gore hell winter holy underwater desert",
+      "czepeku_tags": [
+        "desert",
+        "canyon",
+        "temple",
+        "entrance",
+        "ruin"
+      ]
     },
     {
       "id": "bone-mill---animated-battlemap",
@@ -2777,6 +2903,7 @@
         "spooky",
         "swamp",
         "urban",
+        "village",
         "winter"
       ],
       "has_animated": false,
@@ -3115,7 +3242,11 @@
           ]
         }
       ],
-      "searchable_text": "Bullywug Swamp Bullywug Swamp spooky winter urban cave fire swamp gore"
+      "searchable_text": "Bullywug Swamp Bullywug Swamp spooky winter urban cave fire swamp gore",
+      "czepeku_tags": [
+        "swamp",
+        "village"
+      ]
     },
     {
       "id": "cavern-of-the-venom-queen",
@@ -3123,10 +3254,16 @@
       "title": "Cavern of the Venom Queen",
       "smart_tags": [
         "cave",
+        "cavern",
+        "cellar",
         "desert",
+        "dungeon",
+        "egg",
         "gore",
         "night",
+        "sewer",
         "swamp",
+        "webs",
         "winter"
       ],
       "has_animated": false,
@@ -3266,14 +3403,26 @@
           ]
         }
       ],
-      "searchable_text": "Cavern of the Venom Queen Cavern of the Venom Queen night winter cave swamp desert gore"
+      "searchable_text": "Cavern of the Venom Queen Cavern of the Venom Queen night winter cave swamp desert gore",
+      "czepeku_tags": [
+        "cavern",
+        "dungeon",
+        "sewer",
+        "cellar",
+        "webs",
+        "egg"
+      ]
     },
     {
       "id": "celestial-gate---animated-battlemap",
       "folder_name": "Celestial Gate - Animated Battlemap",
       "title": "Celestial Gate - Animated Battlemap",
       "smart_tags": [
-        "night"
+        "altar",
+        "forest",
+        "night",
+        "portal",
+        "runes"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -3402,13 +3551,23 @@
           ]
         }
       ],
-      "searchable_text": "Celestial Gate - Animated Battlemap Celestial Gate - Animated Battlemap night"
+      "searchable_text": "Celestial Gate - Animated Battlemap Celestial Gate - Animated Battlemap night",
+      "czepeku_tags": [
+        "forest",
+        "runes",
+        "portal",
+        "altar"
+      ]
     },
     {
       "id": "chthonic-lighthouse---animated-battlemap",
       "folder_name": "Chthonic Lighthouse - Animated Battlemap",
       "title": "Chthonic Lighthouse - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "bridge",
+        "lighthouse",
+        "shore"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -3454,7 +3613,12 @@
           ]
         }
       ],
-      "searchable_text": "Chthonic Lighthouse - Animated Battlemap Chthonic Lighthouse - Animated Battlemap "
+      "searchable_text": "Chthonic Lighthouse - Animated Battlemap Chthonic Lighthouse - Animated Battlemap ",
+      "czepeku_tags": [
+        "lighthouse",
+        "shore",
+        "bridge"
+      ]
     },
     {
       "id": "city-marketplace",
@@ -3462,7 +3626,9 @@
       "title": "City Marketplace",
       "smart_tags": [
         "fire",
+        "market",
         "night",
+        "rooftop",
         "ship",
         "spooky",
         "urban",
@@ -3663,13 +3829,20 @@
           ]
         }
       ],
-      "searchable_text": "City Marketplace City Marketplace spooky night winter urban fire ship"
+      "searchable_text": "City Marketplace City Marketplace spooky night winter urban fire ship",
+      "czepeku_tags": [
+        "urban",
+        "rooftop",
+        "market"
+      ]
     },
     {
       "id": "city-marketplace-animated-battlemap",
       "folder_name": "City Marketplace-Animated Battlemap",
       "title": "City Marketplace-Animated Battlemap",
       "smart_tags": [
+        "market",
+        "rooftop",
         "urban"
       ],
       "has_animated": true,
@@ -3721,7 +3894,12 @@
           ]
         }
       ],
-      "searchable_text": "City Marketplace-Animated Battlemap City Marketplace-Animated Battlemap urban"
+      "searchable_text": "City Marketplace-Animated Battlemap City Marketplace-Animated Battlemap urban",
+      "czepeku_tags": [
+        "urban",
+        "rooftop",
+        "market"
+      ]
     },
     {
       "id": "city-rooftop-chase",
@@ -3730,6 +3908,7 @@
       "smart_tags": [
         "gore",
         "night",
+        "rooftop",
         "urban",
         "weather",
         "winter"
@@ -3905,13 +4084,18 @@
           ]
         }
       ],
-      "searchable_text": "City Rooftop Chase City Rooftop Chase night winter urban weather gore"
+      "searchable_text": "City Rooftop Chase City Rooftop Chase night winter urban weather gore",
+      "czepeku_tags": [
+        "urban",
+        "rooftop"
+      ]
     },
     {
       "id": "city-rooftop-chase---animated-battlemap",
       "folder_name": "City Rooftop Chase - Animated Battlemap",
       "title": "City Rooftop Chase - Animated Battlemap",
       "smart_tags": [
+        "rooftop",
         "urban"
       ],
       "has_animated": true,
@@ -3963,7 +4147,11 @@
           ]
         }
       ],
-      "searchable_text": "City Rooftop Chase - Animated Battlemap City Rooftop Chase - Animated Battlemap urban"
+      "searchable_text": "City Rooftop Chase - Animated Battlemap City Rooftop Chase - Animated Battlemap urban",
+      "czepeku_tags": [
+        "urban",
+        "rooftop"
+      ]
     },
     {
       "id": "city-streets",
@@ -3971,6 +4159,9 @@
       "title": "City Streets",
       "smart_tags": [
         "forest",
+        "garden",
+        "room",
+        "shop",
         "urban",
         "weather",
         "winter"
@@ -4985,16 +5176,25 @@
           ]
         }
       ],
-      "searchable_text": "City Streets City Streets forest winter urban weather"
+      "searchable_text": "City Streets City Streets forest winter urban weather",
+      "czepeku_tags": [
+        "garden",
+        "room",
+        "shop"
+      ]
     },
     {
       "id": "colosseum-of-challenges",
       "folder_name": "Colosseum of Challenges",
       "title": "Colosseum of Challenges",
       "smart_tags": [
+        "arena",
+        "blood",
         "fire",
         "hell",
         "holy",
+        "statue",
+        "throne",
         "underwater"
       ],
       "has_animated": false,
@@ -5217,7 +5417,13 @@
           ]
         }
       ],
-      "searchable_text": "Colosseum of Challenges Colosseum of Challenges underwater fire holy hell"
+      "searchable_text": "Colosseum of Challenges Colosseum of Challenges underwater fire holy hell",
+      "czepeku_tags": [
+        "throne",
+        "blood",
+        "statue",
+        "arena"
+      ]
     },
     {
       "id": "colossus-port",
@@ -5225,9 +5431,12 @@
       "title": "Colossus Port",
       "smart_tags": [
         "cave",
+        "docks",
+        "fortification",
         "gore",
         "ship",
         "spooky",
+        "statue",
         "underwater",
         "winter"
       ],
@@ -5563,13 +5772,22 @@
           ]
         }
       ],
-      "searchable_text": "Colossus Port Colossus Port spooky winter cave underwater ship gore"
+      "searchable_text": "Colossus Port Colossus Port spooky winter cave underwater ship gore",
+      "czepeku_tags": [
+        "docks",
+        "fortification",
+        "statue"
+      ]
     },
     {
       "id": "coral-throne",
       "folder_name": "Coral Throne",
       "title": "Coral Throne",
       "smart_tags": [
+        "bridge",
+        "coral",
+        "fish",
+        "throne",
         "underwater"
       ],
       "has_animated": false,
@@ -5782,13 +6000,24 @@
           ]
         }
       ],
-      "searchable_text": "Coral Throne Coral Throne underwater"
+      "searchable_text": "Coral Throne Coral Throne underwater",
+      "czepeku_tags": [
+        "underwater",
+        "coral",
+        "throne",
+        "bridge",
+        "fish"
+      ]
     },
     {
       "id": "coral-throne---animated-battlemap",
       "folder_name": "Coral Throne - Animated Battlemap",
       "title": "Coral Throne - Animated Battlemap",
       "smart_tags": [
+        "bridge",
+        "coral",
+        "fish",
+        "throne",
         "underwater"
       ],
       "has_animated": true,
@@ -5830,7 +6059,14 @@
           ]
         }
       ],
-      "searchable_text": "Coral Throne - Animated Battlemap Coral Throne - Animated Battlemap underwater"
+      "searchable_text": "Coral Throne - Animated Battlemap Coral Throne - Animated Battlemap underwater",
+      "czepeku_tags": [
+        "underwater",
+        "coral",
+        "throne",
+        "bridge",
+        "fish"
+      ]
     },
     {
       "id": "couatl-temple-animated-battlemap",
@@ -5895,6 +6131,8 @@
       "folder_name": "Court of Justice - Animated Battlemap",
       "title": "Court of Justice - Animated Battlemap",
       "smart_tags": [
+        "court",
+        "room",
         "winter"
       ],
       "has_animated": true,
@@ -5946,14 +6184,21 @@
           ]
         }
       ],
-      "searchable_text": "Court of Justice - Animated Battlemap Court of Justice - Animated Battlemap winter"
+      "searchable_text": "Court of Justice - Animated Battlemap Court of Justice - Animated Battlemap winter",
+      "czepeku_tags": [
+        "court",
+        "room"
+      ]
     },
     {
       "id": "crossroads",
       "folder_name": "Crossroads",
       "title": "Crossroads",
       "smart_tags": [
+        "farm",
         "gore",
+        "meadow",
+        "road",
         "underwater",
         "winter"
       ],
@@ -6355,7 +6600,12 @@
           ]
         }
       ],
-      "searchable_text": "Crossroads Crossroads underwater winter gore"
+      "searchable_text": "Crossroads Crossroads underwater winter gore",
+      "czepeku_tags": [
+        "meadow",
+        "road",
+        "farm"
+      ]
     },
     {
       "id": "czekpeku-dragonshoard",
@@ -78709,9 +78959,12 @@
       "smart_tags": [
         "arcane",
         "cave",
+        "coral",
         "desert",
         "gore",
         "holy",
+        "ocean",
+        "organ",
         "ship",
         "underwater",
         "weather"
@@ -79051,14 +79304,23 @@
           ]
         }
       ],
-      "searchable_text": "Deep Sea Organ Deep Sea Organ cave ship arcane weather gore holy underwater desert"
+      "searchable_text": "Deep Sea Organ Deep Sea Organ cave ship arcane weather gore holy underwater desert",
+      "czepeku_tags": [
+        "organ",
+        "underwater",
+        "coral",
+        "ocean"
+      ]
     },
     {
       "id": "deep-sea-temple---animated-battlemap",
       "folder_name": "Deep Sea Temple - Animated Battlemap",
       "title": "Deep Sea Temple - Animated Battlemap",
       "smart_tags": [
+        "coral",
+        "dungeon",
         "holy",
+        "temple",
         "underwater"
       ],
       "has_animated": true,
@@ -79112,7 +79374,13 @@
           ]
         }
       ],
-      "searchable_text": "Deep Sea Temple - Animated Battlemap Deep Sea Temple - Animated Battlemap underwater holy"
+      "searchable_text": "Deep Sea Temple - Animated Battlemap Deep Sea Temple - Animated Battlemap underwater holy",
+      "czepeku_tags": [
+        "coral",
+        "underwater",
+        "dungeon",
+        "temple"
+      ]
     },
     {
       "id": "depths-of-the-festerwood",
@@ -79120,6 +79388,9 @@
       "title": "Depths of the Festerwood",
       "smart_tags": [
         "fire",
+        "forest",
+        "fungi",
+        "natural",
         "night",
         "swamp",
         "winter"
@@ -79280,16 +79551,25 @@
           ]
         }
       ],
-      "searchable_text": "Depths of the Festerwood Depths of the Festerwood fire night winter swamp"
+      "searchable_text": "Depths of the Festerwood Depths of the Festerwood fire night winter swamp",
+      "czepeku_tags": [
+        "forest",
+        "fungi",
+        "natural"
+      ]
     },
     {
       "id": "desert-canyon",
       "folder_name": "Desert Canyon",
       "title": "Desert Canyon",
       "smart_tags": [
+        "canyon",
         "cave",
         "desert",
         "gore",
+        "mine",
+        "platform",
+        "railway",
         "weather"
       ],
       "has_animated": false,
@@ -79706,7 +79986,14 @@
           ]
         }
       ],
-      "searchable_text": "Desert Canyon Desert Canyon cave weather desert gore"
+      "searchable_text": "Desert Canyon Desert Canyon cave weather desert gore",
+      "czepeku_tags": [
+        "desert",
+        "canyon",
+        "railway",
+        "platform",
+        "mine"
+      ]
     },
     {
       "id": "dracolich-lair",
@@ -79714,11 +80001,15 @@
       "title": "Dracolich Lair",
       "smart_tags": [
         "desert",
+        "entrance",
         "fire",
         "gore",
         "hell",
         "holy",
+        "lair",
+        "room",
         "ruins",
+        "temple",
         "underwater",
         "weather",
         "winter"
@@ -80104,7 +80395,13 @@
           ]
         }
       ],
-      "searchable_text": "Dracolich Lair Dracolich Lair ruins fire weather hell gore winter holy underwater desert"
+      "searchable_text": "Dracolich Lair Dracolich Lair ruins fire weather hell gore winter holy underwater desert",
+      "czepeku_tags": [
+        "lair",
+        "entrance",
+        "temple",
+        "room"
+      ]
     },
     {
       "id": "drakescale-peak",
@@ -80112,8 +80409,14 @@
       "title": "Drakescale Peak",
       "smart_tags": [
         "cave",
+        "cavern",
+        "cellar",
+        "dungeon",
+        "lava",
         "mountain",
-        "night"
+        "night",
+        "volcano",
+        "workshop"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -80255,7 +80558,15 @@
           ]
         }
       ],
-      "searchable_text": "Drakescale Peak Drakescale Peak mountain night cave"
+      "searchable_text": "Drakescale Peak Drakescale Peak mountain night cave",
+      "czepeku_tags": [
+        "cavern",
+        "dungeon",
+        "cellar",
+        "workshop",
+        "lava",
+        "volcano"
+      ]
     },
     {
       "id": "dwarven-hall-throne---animated-battlemap",
@@ -80315,11 +80626,15 @@
       "title": "Eldritch Church",
       "smart_tags": [
         "arcane",
+        "eldritch",
         "gore",
         "hell",
         "holy",
         "night",
+        "portal",
+        "ruin",
         "ship",
+        "temple",
         "underwater",
         "weather",
         "winter"
@@ -80684,14 +80999,24 @@
           ]
         }
       ],
-      "searchable_text": "Eldritch Church Eldritch Church night ship arcane weather hell gore winter holy underwater"
+      "searchable_text": "Eldritch Church Eldritch Church night ship arcane weather hell gore winter holy underwater",
+      "czepeku_tags": [
+        "ruin",
+        "temple",
+        "eldritch",
+        "portal"
+      ]
     },
     {
       "id": "eldritch-church---animated-battlemap",
       "folder_name": "Eldritch Church - Animated Battlemap",
       "title": "Eldritch Church - Animated Battlemap",
       "smart_tags": [
-        "holy"
+        "eldritch",
+        "holy",
+        "portal",
+        "ruin",
+        "temple"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -80826,7 +81151,13 @@
           ]
         }
       ],
-      "searchable_text": "Eldritch Church - Animated Battlemap Eldritch Church - Animated Battlemap holy"
+      "searchable_text": "Eldritch Church - Animated Battlemap Eldritch Church - Animated Battlemap holy",
+      "czepeku_tags": [
+        "ruin",
+        "temple",
+        "eldritch",
+        "portal"
+      ]
     },
     {
       "id": "elven-magitech-portal---animated-battlemap",
@@ -80834,7 +81165,14 @@
       "title": "Elven Magitech Portal - Animated Battlemap",
       "smart_tags": [
         "arcane",
-        "ship"
+        "complex",
+        "elven",
+        "platform",
+        "portal",
+        "runes",
+        "ship",
+        "sky",
+        "technology"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -80887,13 +81225,29 @@
           ]
         }
       ],
-      "searchable_text": "Elven Magitech Portal - Animated Battlemap Elven Magitech Portal - Animated Battlemap ship arcane"
+      "searchable_text": "Elven Magitech Portal - Animated Battlemap Elven Magitech Portal - Animated Battlemap ship arcane",
+      "czepeku_tags": [
+        "platform",
+        "technology",
+        "portal",
+        "sky",
+        "runes",
+        "complex",
+        "elven"
+      ]
     },
     {
       "id": "fey-tavern---animated-battlemap",
       "folder_name": "Fey Tavern - Animated Battlemap",
       "title": "Fey Tavern - Animated Battlemap",
       "smart_tags": [
+        "creature",
+        "fey",
+        "plant",
+        "potion",
+        "room",
+        "tavern",
+        "tree",
         "urban"
       ],
       "has_animated": true,
@@ -80945,15 +81299,27 @@
           ]
         }
       ],
-      "searchable_text": "Fey Tavern - Animated Battlemap Fey Tavern - Animated Battlemap urban"
+      "searchable_text": "Fey Tavern - Animated Battlemap Fey Tavern - Animated Battlemap urban",
+      "czepeku_tags": [
+        "tavern",
+        "fey",
+        "tree",
+        "plant",
+        "creature",
+        "room",
+        "potion"
+      ]
     },
     {
       "id": "fey-village",
       "folder_name": "Fey Village",
       "title": "Fey Village by Cze and Peku",
       "smart_tags": [
+        "fey",
+        "fungi",
         "night",
-        "swamp"
+        "swamp",
+        "village"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -81136,13 +81502,24 @@
           ]
         }
       ],
-      "searchable_text": "Fey Village Fey Village by Cze and Peku night swamp"
+      "searchable_text": "Fey Village Fey Village by Cze and Peku night swamp",
+      "czepeku_tags": [
+        "fey",
+        "fungi",
+        "village"
+      ]
     },
     {
       "id": "floating-castle",
       "folder_name": "Floating Castle",
       "title": "Floating Sky Castle",
       "smart_tags": [
+        "complex",
+        "creature",
+        "fire",
+        "fortification",
+        "room",
+        "sky",
         "urban"
       ],
       "has_animated": false,
@@ -81299,14 +81676,29 @@
           ]
         }
       ],
-      "searchable_text": "Floating Castle Floating Sky Castle urban"
+      "searchable_text": "Floating Castle Floating Sky Castle urban",
+      "czepeku_tags": [
+        "fortification",
+        "sky",
+        "creature",
+        "fire",
+        "complex",
+        "room"
+      ]
     },
     {
       "id": "flooded-fey-ruins---animated-battlemap",
       "folder_name": "Flooded Fey Ruins - Animated Battlemap",
       "title": "Flooded Fey Ruins - Animated Battlemap",
       "smart_tags": [
+        "entrance",
+        "flood",
+        "forest",
+        "plant",
+        "ruin",
         "ruins",
+        "statue",
+        "temple",
         "underwater"
       ],
       "has_animated": true,
@@ -81360,7 +81752,16 @@
           ]
         }
       ],
-      "searchable_text": "Flooded Fey Ruins - Animated Battlemap Flooded Fey Ruins - Animated Battlemap underwater ruins"
+      "searchable_text": "Flooded Fey Ruins - Animated Battlemap Flooded Fey Ruins - Animated Battlemap underwater ruins",
+      "czepeku_tags": [
+        "entrance",
+        "plant",
+        "temple",
+        "ruin",
+        "forest",
+        "flood",
+        "statue"
+      ]
     },
     {
       "id": "forbidden-gates---animated-battlemap",
@@ -81423,6 +81824,11 @@
         "forest",
         "gore",
         "holy",
+        "market",
+        "river",
+        "shrine",
+        "temple",
+        "waterfall",
         "weather"
       ],
       "has_animated": false,
@@ -81796,7 +82202,15 @@
           ]
         }
       ],
-      "searchable_text": "Forest Shrine Festival Forest Shrine Festival forest holy fire weather gore"
+      "searchable_text": "Forest Shrine Festival Forest Shrine Festival forest holy fire weather gore",
+      "czepeku_tags": [
+        "shrine",
+        "temple",
+        "forest",
+        "river",
+        "waterfall",
+        "market"
+      ]
     },
     {
       "id": "forgotten-chapel---animated-battlemap",
@@ -81862,6 +82276,7 @@
       "title": "Giant Kitchen",
       "smart_tags": [
         "fire",
+        "oversized",
         "ruins",
         "weather",
         "winter"
@@ -82070,15 +82485,21 @@
           ]
         }
       ],
-      "searchable_text": "Giant Kitchen Giant Kitchen winter ruins fire weather"
+      "searchable_text": "Giant Kitchen Giant Kitchen winter ruins fire weather",
+      "czepeku_tags": [
+        "oversized"
+      ]
     },
     {
       "id": "goblin-bridge",
       "folder_name": "Goblin Bridge",
       "title": "Goblin Bridge",
       "smart_tags": [
+        "bridge",
+        "canyon",
         "fire",
-        "night"
+        "night",
+        "waterfall"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -82270,13 +82691,20 @@
           ]
         }
       ],
-      "searchable_text": "Goblin Bridge Goblin Bridge fire night"
+      "searchable_text": "Goblin Bridge Goblin Bridge fire night",
+      "czepeku_tags": [
+        "waterfall",
+        "canyon",
+        "bridge"
+      ]
     },
     {
       "id": "goblin-city-centre---animated-battlemap",
       "folder_name": "Goblin City Centre - Animated Battlemap",
       "title": "Goblin City Centre - Animated Battlemap",
       "smart_tags": [
+        "desert",
+        "goblin",
         "urban"
       ],
       "has_animated": true,
@@ -82318,7 +82746,12 @@
           ]
         }
       ],
-      "searchable_text": "Goblin City Centre - Animated Battlemap Goblin City Centre - Animated Battlemap urban"
+      "searchable_text": "Goblin City Centre - Animated Battlemap Goblin City Centre - Animated Battlemap urban",
+      "czepeku_tags": [
+        "desert",
+        "urban",
+        "goblin"
+      ]
     },
     {
       "id": "grand-opera-house",
@@ -82330,6 +82763,7 @@
         "hell",
         "holy",
         "night",
+        "theater",
         "underwater",
         "winter"
       ],
@@ -82696,14 +83130,20 @@
           ]
         }
       ],
-      "searchable_text": "Grand Opera House Grand Opera House night winter hell underwater fire holy gore"
+      "searchable_text": "Grand Opera House Grand Opera House night winter hell underwater fire holy gore",
+      "czepeku_tags": [
+        "theater"
+      ]
     },
     {
       "id": "great-library",
       "folder_name": "Great Library",
       "title": "The Great Library",
       "smart_tags": [
-        "night"
+        "library",
+        "night",
+        "pool",
+        "room"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -82866,7 +83306,12 @@
           ]
         }
       ],
-      "searchable_text": "Great Library The Great Library night"
+      "searchable_text": "Great Library The Great Library night",
+      "czepeku_tags": [
+        "library",
+        "room",
+        "pool"
+      ]
     },
     {
       "id": "green-dragon-lair",
@@ -82874,8 +83319,12 @@
       "title": "Green Dragon Lair",
       "smart_tags": [
         "arcane",
+        "entrance",
         "fire",
+        "forest",
         "gore",
+        "pool",
+        "ruin",
         "ruins",
         "ship"
       ],
@@ -83071,14 +83520,24 @@
           ]
         }
       ],
-      "searchable_text": "Green Dragon Lair Green Dragon Lair ruins fire ship arcane gore"
+      "searchable_text": "Green Dragon Lair Green Dragon Lair ruins fire ship arcane gore",
+      "czepeku_tags": [
+        "ruin",
+        "pool",
+        "forest",
+        "entrance"
+      ]
     },
     {
       "id": "gryphon-roost-inn---animated-battlemap",
       "folder_name": "Gryphon Roost Inn - Animated Battlemap",
       "title": "Gryphon Roost Inn - Animated Battlemap",
       "smart_tags": [
+        "interior exterior",
+        "island",
         "night",
+        "sky",
+        "tavern",
         "urban"
       ],
       "has_animated": true,
@@ -83174,13 +83633,25 @@
           ]
         }
       ],
-      "searchable_text": "Gryphon Roost Inn - Animated Battlemap Gryphon Roost Inn - Animated Battlemap night urban"
+      "searchable_text": "Gryphon Roost Inn - Animated Battlemap Gryphon Roost Inn - Animated Battlemap night urban",
+      "czepeku_tags": [
+        "tavern",
+        "interior exterior",
+        "sky",
+        "island"
+      ]
     },
     {
       "id": "hanging-gardens---animated-battlemap",
       "folder_name": "Hanging Gardens - Animated Battlemap",
       "title": "Hanging Gardens - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "entrance",
+        "garden",
+        "pool",
+        "temple",
+        "waterfall"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": true,
@@ -83226,7 +83697,14 @@
           ]
         }
       ],
-      "searchable_text": "Hanging Gardens - Animated Battlemap Hanging Gardens - Animated Battlemap "
+      "searchable_text": "Hanging Gardens - Animated Battlemap Hanging Gardens - Animated Battlemap ",
+      "czepeku_tags": [
+        "temple",
+        "entrance",
+        "garden",
+        "waterfall",
+        "pool"
+      ]
     },
     {
       "id": "harpy-cove",
@@ -83234,13 +83712,18 @@
       "title": "Harpy Cove",
       "smart_tags": [
         "cave",
+        "cliff",
         "desert",
         "fire",
         "gore",
+        "nest",
         "night",
+        "rock",
         "ship",
+        "shore",
         "underwater",
-        "winter"
+        "winter",
+        "wreck"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -83595,13 +84078,28 @@
           ]
         }
       ],
-      "searchable_text": "Harpy Cove Harpy Cove winter night cave underwater ship fire desert gore"
+      "searchable_text": "Harpy Cove Harpy Cove winter night cave underwater ship fire desert gore",
+      "czepeku_tags": [
+        "nest",
+        "shore",
+        "rock",
+        "cliff",
+        "ship",
+        "wreck"
+      ]
     },
     {
       "id": "harpy-cove---animated-battlemap",
       "folder_name": "Harpy Cove - Animated Battlemap",
       "title": "Harpy Cove - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "cliff",
+        "nest",
+        "rock",
+        "ship",
+        "shore",
+        "wreck"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -83647,14 +84145,26 @@
           ]
         }
       ],
-      "searchable_text": "Harpy Cove - Animated Battlemap Harpy Cove - Animated Battlemap "
+      "searchable_text": "Harpy Cove - Animated Battlemap Harpy Cove - Animated Battlemap ",
+      "czepeku_tags": [
+        "nest",
+        "shore",
+        "rock",
+        "cliff",
+        "ship",
+        "wreck"
+      ]
     },
     {
       "id": "hell's-tax-office---animated-battlemap",
       "folder_name": "Hell's Tax Office - Animated Battlemap",
       "title": "Hell's Tax Office - Animated Battlemap",
       "smart_tags": [
+        "creature",
         "hell",
+        "infernal",
+        "office",
+        "room",
         "winter"
       ],
       "has_animated": true,
@@ -83708,7 +84218,13 @@
           ]
         }
       ],
-      "searchable_text": "Hell's Tax Office - Animated Battlemap Hell's Tax Office - Animated Battlemap winter hell"
+      "searchable_text": "Hell's Tax Office - Animated Battlemap Hell's Tax Office - Animated Battlemap winter hell",
+      "czepeku_tags": [
+        "infernal",
+        "creature",
+        "room",
+        "office"
+      ]
     },
     {
       "id": "hellfire-prison---animated-battlemap",
@@ -83716,7 +84232,10 @@
       "title": "Hellfire Prison - Animated Battlemap",
       "smart_tags": [
         "fire",
-        "hell"
+        "hell",
+        "infernal",
+        "lava",
+        "prison"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -83769,7 +84288,12 @@
           ]
         }
       ],
-      "searchable_text": "Hellfire Prison - Animated Battlemap Hellfire Prison - Animated Battlemap fire hell"
+      "searchable_text": "Hellfire Prison - Animated Battlemap Hellfire Prison - Animated Battlemap fire hell",
+      "czepeku_tags": [
+        "lava",
+        "prison",
+        "infernal"
+      ]
     },
     {
       "id": "hells-tax-office",
@@ -83777,8 +84301,12 @@
       "title": "Hell's Tax Office",
       "smart_tags": [
         "arcane",
+        "creature",
         "fire",
         "hell",
+        "infernal",
+        "office",
+        "room",
         "ship",
         "winter"
       ],
@@ -83938,7 +84466,13 @@
           ]
         }
       ],
-      "searchable_text": "Hells Tax Office Hell's Tax Office winter fire ship arcane hell"
+      "searchable_text": "Hells Tax Office Hell's Tax Office winter fire ship arcane hell",
+      "czepeku_tags": [
+        "infernal",
+        "creature",
+        "room",
+        "office"
+      ]
     },
     {
       "id": "impact-site",
@@ -83946,8 +84480,14 @@
       "title": "Impact Site",
       "smart_tags": [
         "cave",
+        "crater",
+        "destruction",
+        "farm",
+        "festivity",
         "fire",
         "ship",
+        "snow",
+        "vehicle",
         "winter"
       ],
       "has_animated": false,
@@ -84323,13 +84863,28 @@
           ]
         }
       ],
-      "searchable_text": "Impact Site Impact Site fire ship winter cave"
+      "searchable_text": "Impact Site Impact Site fire ship winter cave",
+      "czepeku_tags": [
+        "snow",
+        "farm",
+        "vehicle",
+        "festivity",
+        "crater",
+        "destruction"
+      ]
     },
     {
       "id": "impact-site---animated-battlemap",
       "folder_name": "Impact Site - Animated Battlemap",
       "title": "Impact Site - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "crater",
+        "destruction",
+        "farm",
+        "festivity",
+        "snow",
+        "vehicle"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -84375,14 +84930,25 @@
           ]
         }
       ],
-      "searchable_text": "Impact Site - Animated Battlemap Impact Site - Animated Battlemap "
+      "searchable_text": "Impact Site - Animated Battlemap Impact Site - Animated Battlemap ",
+      "czepeku_tags": [
+        "snow",
+        "farm",
+        "vehicle",
+        "festivity",
+        "crater",
+        "destruction"
+      ]
     },
     {
       "id": "imperial-graveyard---animated-battlemap",
       "folder_name": "Imperial Graveyard - Animated Battlemap",
       "title": "Imperial Graveyard - Animated Battlemap",
       "smart_tags": [
-        "spooky"
+        "graveyard",
+        "pool",
+        "spooky",
+        "statue"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -84433,7 +84999,12 @@
           ]
         }
       ],
-      "searchable_text": "Imperial Graveyard - Animated Battlemap Imperial Graveyard - Animated Battlemap spooky"
+      "searchable_text": "Imperial Graveyard - Animated Battlemap Imperial Graveyard - Animated Battlemap spooky",
+      "czepeku_tags": [
+        "graveyard",
+        "statue",
+        "pool"
+      ]
     },
     {
       "id": "island-fort",
@@ -84441,7 +85012,10 @@
       "title": "Island Fort",
       "smart_tags": [
         "cave",
-        "gore"
+        "fortification",
+        "gore",
+        "interior exterior",
+        "island"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -84671,7 +85245,12 @@
           ]
         }
       ],
-      "searchable_text": "Island Fort Island Fort cave gore"
+      "searchable_text": "Island Fort Island Fort cave gore",
+      "czepeku_tags": [
+        "island",
+        "fortification",
+        "interior exterior"
+      ]
     },
     {
       "id": "lair-of-the-beholder-god",
@@ -85096,7 +85675,11 @@
       "title": "Land of Giants",
       "smart_tags": [
         "desert",
+        "forest",
         "night",
+        "oversized",
+        "road",
+        "tracks",
         "weather"
       ],
       "has_animated": false,
@@ -85196,13 +85779,22 @@
           ]
         }
       ],
-      "searchable_text": "Land of Giants Land of Giants night desert weather"
+      "searchable_text": "Land of Giants Land of Giants night desert weather",
+      "czepeku_tags": [
+        "oversized",
+        "tracks",
+        "road",
+        "forest"
+      ]
     },
     {
       "id": "lightning-rail",
       "folder_name": "Lightning Rail",
       "title": "Lightning Rail Part 1",
       "smart_tags": [
+        "lightning",
+        "technology",
+        "train",
         "weather"
       ],
       "has_animated": false,
@@ -85422,7 +86014,12 @@
           ]
         }
       ],
-      "searchable_text": "Lightning Rail Lightning Rail Part 1 weather"
+      "searchable_text": "Lightning Rail Lightning Rail Part 1 weather",
+      "czepeku_tags": [
+        "train",
+        "technology",
+        "lightning"
+      ]
     },
     {
       "id": "lightning-rail-part-2",
@@ -86006,9 +86603,15 @@
       "title": "The Mechanical Palace",
       "smart_tags": [
         "arcane",
+        "bridge",
+        "creature",
         "gore",
+        "machinery",
         "night",
         "ship",
+        "steam",
+        "technology",
+        "throne",
         "urban",
         "weather"
       ],
@@ -86243,7 +86846,15 @@
           ]
         }
       ],
-      "searchable_text": "Mechanical Palace The Mechanical Palace night urban ship arcane weather gore"
+      "searchable_text": "Mechanical Palace The Mechanical Palace night urban ship arcane weather gore",
+      "czepeku_tags": [
+        "throne",
+        "creature",
+        "technology",
+        "machinery",
+        "steam",
+        "bridge"
+      ]
     },
     {
       "id": "medieval-monster-festival",
@@ -86365,12 +86976,16 @@
       "folder_name": "Medusa's Wake",
       "title": "Medusa's Wake",
       "smart_tags": [
+        "bridge",
+        "canyon",
         "cave",
         "desert",
         "fire",
         "gore",
         "mountain",
-        "night"
+        "night",
+        "river",
+        "statue"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -86653,13 +87268,24 @@
           ]
         }
       ],
-      "searchable_text": "Medusa's Wake Medusa's Wake mountain night cave fire desert gore"
+      "searchable_text": "Medusa's Wake Medusa's Wake mountain night cave fire desert gore",
+      "czepeku_tags": [
+        "bridge",
+        "river",
+        "canyon",
+        "statue"
+      ]
     },
     {
       "id": "medusas-wake-animated-battlemap",
       "folder_name": "Medusas Wake-Animated Battlemap",
       "title": "Medusas Wake-Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "bridge",
+        "canyon",
+        "river",
+        "statue"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -86700,7 +87326,13 @@
           ]
         }
       ],
-      "searchable_text": "Medusas Wake-Animated Battlemap Medusas Wake-Animated Battlemap "
+      "searchable_text": "Medusas Wake-Animated Battlemap Medusas Wake-Animated Battlemap ",
+      "czepeku_tags": [
+        "bridge",
+        "river",
+        "canyon",
+        "statue"
+      ]
     },
     {
       "id": "merfolk-marina",
@@ -86708,10 +87340,14 @@
       "title": "Merfolk Marina",
       "smart_tags": [
         "arcane",
+        "chasm",
+        "docks",
         "fire",
         "night",
+        "ocean",
         "ship",
-        "underwater"
+        "underwater",
+        "urban"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -86960,7 +87596,14 @@
           ]
         }
       ],
-      "searchable_text": "Merfolk Marina Merfolk Marina night underwater ship fire arcane"
+      "searchable_text": "Merfolk Marina Merfolk Marina night underwater ship fire arcane",
+      "czepeku_tags": [
+        "chasm",
+        "underwater",
+        "urban",
+        "docks",
+        "ocean"
+      ]
     },
     {
       "id": "minotaur-labyrinth",
@@ -86968,6 +87611,9 @@
       "title": "Minotaur Labyrinth",
       "smart_tags": [
         "cave",
+        "desert",
+        "dungeon",
+        "maze",
         "night"
       ],
       "has_animated": false,
@@ -87064,17 +87710,25 @@
           ]
         }
       ],
-      "searchable_text": "Minotaur Labyrinth Minotaur Labyrinth night cave"
+      "searchable_text": "Minotaur Labyrinth Minotaur Labyrinth night cave",
+      "czepeku_tags": [
+        "dungeon",
+        "maze",
+        "desert"
+      ]
     },
     {
       "id": "mountaintop-altar",
       "folder_name": "Mountaintop Altar",
       "title": "Mountaintop Altar",
       "smart_tags": [
+        "altar",
+        "cliff",
         "gore",
         "holy",
         "mountain",
-        "night"
+        "night",
+        "weapon"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -87255,7 +87909,13 @@
           ]
         }
       ],
-      "searchable_text": "Mountaintop Altar Mountaintop Altar night mountain holy gore"
+      "searchable_text": "Mountaintop Altar Mountaintop Altar night mountain holy gore",
+      "czepeku_tags": [
+        "altar",
+        "mountain",
+        "cliff",
+        "weapon"
+      ]
     },
     {
       "id": "mountaintop-monastery",
@@ -87516,6 +88176,9 @@
       "title": "Necropolis Dungeon",
       "smart_tags": [
         "cave",
+        "crypt",
+        "dungeon",
+        "entrance",
         "fire",
         "gore",
         "hell",
@@ -87819,7 +88482,12 @@
           ]
         }
       ],
-      "searchable_text": "Necropolis Dungeon Necropolis Dungeon night ruins cave underwater hell gore spooky winter holy fire"
+      "searchable_text": "Necropolis Dungeon Necropolis Dungeon night ruins cave underwater hell gore spooky winter holy fire",
+      "czepeku_tags": [
+        "crypt",
+        "dungeon",
+        "entrance"
+      ]
     },
     {
       "id": "necropolis-entrance",
@@ -87828,10 +88496,12 @@
       "smart_tags": [
         "cave",
         "desert",
+        "entrance",
         "fire",
         "gore",
         "holy",
         "spooky",
+        "statue",
         "winter"
       ],
       "has_animated": false,
@@ -88186,14 +88856,26 @@
           ]
         }
       ],
-      "searchable_text": "Necropolis Entrance Necropolis Entrance spooky winter cave fire desert holy gore"
+      "searchable_text": "Necropolis Entrance Necropolis Entrance spooky winter cave fire desert holy gore",
+      "czepeku_tags": [
+        "entrance",
+        "desert",
+        "statue"
+      ]
     },
     {
       "id": "nightmare-dragon-lair---animated-battlemap",
       "folder_name": "Nightmare Dragon Lair - Animated Battlemap",
       "title": "Nightmare Dragon Lair - Animated Battlemap",
       "smart_tags": [
-        "night"
+        "blood",
+        "eldritch",
+        "entrance",
+        "eyes",
+        "lair",
+        "maw",
+        "night",
+        "temple"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -88244,7 +88926,16 @@
           ]
         }
       ],
-      "searchable_text": "Nightmare Dragon Lair - Animated Battlemap Nightmare Dragon Lair - Animated Battlemap night"
+      "searchable_text": "Nightmare Dragon Lair - Animated Battlemap Nightmare Dragon Lair - Animated Battlemap night",
+      "czepeku_tags": [
+        "eldritch",
+        "eyes",
+        "entrance",
+        "lair",
+        "temple",
+        "blood",
+        "maw"
+      ]
     },
     {
       "id": "oasis-city",
@@ -88252,6 +88943,9 @@
       "title": "Oasis City",
       "smart_tags": [
         "desert",
+        "entrance",
+        "fortification",
+        "oasis",
         "underwater",
         "urban",
         "weather"
@@ -88443,16 +89137,29 @@
           ]
         }
       ],
-      "searchable_text": "Oasis City Oasis City urban underwater weather desert"
+      "searchable_text": "Oasis City Oasis City urban underwater weather desert",
+      "czepeku_tags": [
+        "urban",
+        "oasis",
+        "desert",
+        "fortification",
+        "entrance"
+      ]
     },
     {
       "id": "ogre-queen-feast",
       "folder_name": "Ogre Queen Feast",
       "title": "Ogre Queen Feast",
       "smart_tags": [
+        "blood",
+        "complex",
+        "destruction",
         "fire",
+        "fortification",
         "gore",
         "night",
+        "palace",
+        "tracks",
         "weather"
       ],
       "has_animated": false,
@@ -88605,7 +89312,15 @@
           ]
         }
       ],
-      "searchable_text": "Ogre Queen Feast Ogre Queen Feast night fire weather gore"
+      "searchable_text": "Ogre Queen Feast Ogre Queen Feast night fire weather gore",
+      "czepeku_tags": [
+        "destruction",
+        "fortification",
+        "tracks",
+        "blood",
+        "complex",
+        "palace"
+      ]
     },
     {
       "id": "open-ocean",
@@ -88616,7 +89331,9 @@
         "desert",
         "fire",
         "gore",
+        "natural",
         "night",
+        "ocean",
         "ruins",
         "ship",
         "underwater",
@@ -89772,7 +90489,11 @@
           ]
         }
       ],
-      "searchable_text": "Open Ocean Open Ocean night ruins ship arcane weather fire gore winter urban underwater desert"
+      "searchable_text": "Open Ocean Open Ocean night ruins ship arcane weather fire gore winter urban underwater desert",
+      "czepeku_tags": [
+        "ocean",
+        "natural"
+      ]
     },
     {
       "id": "overgrown-magic-forest",
@@ -89780,8 +90501,11 @@
       "title": "Overgrown Magic Forest",
       "smart_tags": [
         "arcane",
+        "camp",
+        "clearing",
         "fire",
         "forest",
+        "pool",
         "ruins",
         "underwater",
         "weather",
@@ -90135,7 +90859,13 @@
           ]
         }
       ],
-      "searchable_text": "Overgrown Magic Forest Overgrown Magic Forest forest ruins arcane weather winter underwater fire"
+      "searchable_text": "Overgrown Magic Forest Overgrown Magic Forest forest ruins arcane weather winter underwater fire",
+      "czepeku_tags": [
+        "forest",
+        "clearing",
+        "pool",
+        "camp"
+      ]
     },
     {
       "id": "overgrown-magic-forest---animated-battlemaps",
@@ -90206,9 +90936,12 @@
       "folder_name": "Pharaohs Tomb",
       "title": "Pharaoh's Tomb",
       "smart_tags": [
+        "crypt",
         "desert",
+        "interior exterior",
         "night",
         "spooky",
+        "temple",
         "underwater",
         "weather"
       ],
@@ -90443,16 +91176,28 @@
           ]
         }
       ],
-      "searchable_text": "Pharaohs Tomb Pharaoh's Tomb spooky night underwater weather desert"
+      "searchable_text": "Pharaohs Tomb Pharaoh's Tomb spooky night underwater weather desert",
+      "czepeku_tags": [
+        "temple",
+        "crypt",
+        "desert",
+        "interior exterior"
+      ]
     },
     {
       "id": "plague-hospital",
       "folder_name": "Plague Hospital",
       "title": "Plague Hospital",
       "smart_tags": [
+        "garden",
         "hell",
         "holy",
+        "hospital",
         "night",
+        "pool",
+        "quarters",
+        "room",
+        "temple",
         "underwater",
         "winter"
       ],
@@ -90711,14 +91456,28 @@
           ]
         }
       ],
-      "searchable_text": "Plague Hospital Plague Hospital night winter holy underwater hell"
+      "searchable_text": "Plague Hospital Plague Hospital night winter holy underwater hell",
+      "czepeku_tags": [
+        "temple",
+        "pool",
+        "garden",
+        "quarters",
+        "hospital",
+        "room"
+      ]
     },
     {
       "id": "plague-hospital-animated-battlemap",
       "folder_name": "Plague Hospital-Animated Battlemap",
       "title": "Plague Hospital-Animated Battlemap",
       "smart_tags": [
-        "hell"
+        "garden",
+        "hell",
+        "hospital",
+        "pool",
+        "quarters",
+        "room",
+        "temple"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -90769,7 +91528,15 @@
           ]
         }
       ],
-      "searchable_text": "Plague Hospital-Animated Battlemap Plague Hospital-Animated Battlemap hell"
+      "searchable_text": "Plague Hospital-Animated Battlemap Plague Hospital-Animated Battlemap hell",
+      "czepeku_tags": [
+        "temple",
+        "pool",
+        "garden",
+        "quarters",
+        "hospital",
+        "room"
+      ]
     },
     {
       "id": "pseudodragon-lair",
@@ -90777,8 +91544,14 @@
       "title": "Psuedodragon Lair",
       "smart_tags": [
         "cave",
+        "complex",
+        "courtyard",
+        "farm",
         "gore",
-        "swamp"
+        "interior exterior",
+        "shrine",
+        "swamp",
+        "temple"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -90965,7 +91738,15 @@
           ]
         }
       ],
-      "searchable_text": "Pseudodragon Lair Psuedodragon Lair swamp cave gore"
+      "searchable_text": "Pseudodragon Lair Psuedodragon Lair swamp cave gore",
+      "czepeku_tags": [
+        "temple",
+        "shrine",
+        "courtyard",
+        "interior exterior",
+        "farm",
+        "complex"
+      ]
     },
     {
       "id": "remote-ice-village",
@@ -90976,8 +91757,11 @@
         "fire",
         "gore",
         "holy",
+        "pool",
         "ruins",
         "ship",
+        "snow",
+        "village",
         "weather",
         "winter"
       ],
@@ -91413,13 +92197,22 @@
           ]
         }
       ],
-      "searchable_text": "Remote Ice Village Remote Ice Village ruins ship arcane weather gore winter holy fire"
+      "searchable_text": "Remote Ice Village Remote Ice Village ruins ship arcane weather gore winter holy fire",
+      "czepeku_tags": [
+        "village",
+        "snow",
+        "pool"
+      ]
     },
     {
       "id": "riverwood-toll-castle---animated-battlemap",
       "folder_name": "Riverwood Toll Castle - Animated Battlemap",
       "title": "Riverwood Toll Castle - Animated Battlemap",
       "smart_tags": [
+        "bridge",
+        "forest",
+        "fortification",
+        "river",
         "urban"
       ],
       "has_animated": true,
@@ -91471,14 +92264,25 @@
           ]
         }
       ],
-      "searchable_text": "Riverwood Toll Castle - Animated Battlemap Riverwood Toll Castle - Animated Battlemap urban"
+      "searchable_text": "Riverwood Toll Castle - Animated Battlemap Riverwood Toll Castle - Animated Battlemap urban",
+      "czepeku_tags": [
+        "fortification",
+        "bridge",
+        "river",
+        "forest"
+      ]
     },
     {
       "id": "ropebridge-chasm---animated-battlemap",
       "folder_name": "Ropebridge Chasm - Animated Battlemap",
       "title": "Ropebridge Chasm - Animated Battlemap",
       "smart_tags": [
-        "night"
+        "bridge",
+        "broken",
+        "cliff",
+        "natural",
+        "night",
+        "shore"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -91567,7 +92371,14 @@
           ]
         }
       ],
-      "searchable_text": "Ropebridge Chasm - Animated Battlemap Ropebridge Chasm - Animated Battlemap night"
+      "searchable_text": "Ropebridge Chasm - Animated Battlemap Ropebridge Chasm - Animated Battlemap night",
+      "czepeku_tags": [
+        "cliff",
+        "shore",
+        "bridge",
+        "broken",
+        "natural"
+      ]
     },
     {
       "id": "royal-throne-room",
@@ -91575,11 +92386,16 @@
       "title": "Royal Throne Room",
       "smart_tags": [
         "arcane",
+        "court",
         "gore",
         "hell",
         "night",
+        "palace",
+        "room",
         "ruins",
         "ship",
+        "statue",
+        "throne",
         "winter"
       ],
       "has_animated": false,
@@ -91793,7 +92609,14 @@
           ]
         }
       ],
-      "searchable_text": "Royal Throne Room Royal Throne Room night winter hell ruins ship arcane gore"
+      "searchable_text": "Royal Throne Room Royal Throne Room night winter hell ruins ship arcane gore",
+      "czepeku_tags": [
+        "room",
+        "court",
+        "throne",
+        "statue",
+        "palace"
+      ]
     },
     {
       "id": "serene-lakeside",
@@ -91801,7 +92624,10 @@
       "title": "Serene Lakeside",
       "smart_tags": [
         "desert",
+        "docks",
+        "meadow",
         "ship",
+        "shore",
         "spooky",
         "swamp",
         "weather",
@@ -92019,13 +92845,22 @@
           ]
         }
       ],
-      "searchable_text": "Serene Lakeside Serene Lakeside spooky winter weather ship swamp desert"
+      "searchable_text": "Serene Lakeside Serene Lakeside spooky winter weather ship swamp desert",
+      "czepeku_tags": [
+        "shore",
+        "docks",
+        "meadow"
+      ]
     },
     {
       "id": "serene-lakeside---animated-battlemap",
       "folder_name": "Serene Lakeside - Animated Battlemap",
       "title": "Serene Lakeside - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "docks",
+        "meadow",
+        "shore"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -92071,7 +92906,12 @@
           ]
         }
       ],
-      "searchable_text": "Serene Lakeside - Animated Battlemap Serene Lakeside - Animated Battlemap "
+      "searchable_text": "Serene Lakeside - Animated Battlemap Serene Lakeside - Animated Battlemap ",
+      "czepeku_tags": [
+        "shore",
+        "docks",
+        "meadow"
+      ]
     },
     {
       "id": "shadow-fortress-bridge",
@@ -92334,8 +93174,11 @@
       "folder_name": "Shadowfell Fortress Interior",
       "title": "Shadow Fortress Interior",
       "smart_tags": [
+        "eyes",
         "fire",
+        "fortification",
         "night",
+        "shadow",
         "underwater",
         "winter"
       ],
@@ -92700,7 +93543,12 @@
           ]
         }
       ],
-      "searchable_text": "Shadowfell Fortress Interior Shadow Fortress Interior fire night winter underwater"
+      "searchable_text": "Shadowfell Fortress Interior Shadow Fortress Interior fire night winter underwater",
+      "czepeku_tags": [
+        "eyes",
+        "shadow",
+        "fortification"
+      ]
     },
     {
       "id": "steampunk-warforged-factory",
@@ -92864,8 +93712,13 @@
       "folder_name": "Steamy Japanese Bathhouse",
       "title": "Steamy Japanese Bathhouse",
       "smart_tags": [
+        "creature",
         "fire",
         "gore",
+        "interior exterior",
+        "pool",
+        "steam",
+        "waterfall",
         "winter"
       ],
       "has_animated": false,
@@ -93043,7 +93896,14 @@
           ]
         }
       ],
-      "searchable_text": "Steamy Japanese Bathhouse Steamy Japanese Bathhouse fire winter gore"
+      "searchable_text": "Steamy Japanese Bathhouse Steamy Japanese Bathhouse fire winter gore",
+      "czepeku_tags": [
+        "steam",
+        "interior exterior",
+        "pool",
+        "creature",
+        "waterfall"
+      ]
     },
     {
       "id": "temple-of-the-couatl-interior",
@@ -93350,7 +94210,11 @@
       "folder_name": "The Stranded Casino",
       "title": "The Stranded Casino",
       "smart_tags": [
+        "casino",
         "forest",
+        "jungle",
+        "room",
+        "ship",
         "urban"
       ],
       "has_animated": false,
@@ -93473,7 +94337,13 @@
           ]
         }
       ],
-      "searchable_text": "The Stranded Casino The Stranded Casino forest urban"
+      "searchable_text": "The Stranded Casino The Stranded Casino forest urban",
+      "czepeku_tags": [
+        "room",
+        "ship",
+        "jungle",
+        "casino"
+      ]
     },
     {
       "id": "thieves-guild-hideout2",
@@ -93718,8 +94588,12 @@
       "folder_name": "Tomb of Sand - Animated Battlemap",
       "title": "Tomb of Sand - Animated Battlemap",
       "smart_tags": [
+        "bridge",
         "desert",
-        "spooky"
+        "entrance",
+        "sand",
+        "spooky",
+        "temple"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -93772,7 +94646,14 @@
           ]
         }
       ],
-      "searchable_text": "Tomb of Sand - Animated Battlemap Tomb of Sand - Animated Battlemap spooky desert"
+      "searchable_text": "Tomb of Sand - Animated Battlemap Tomb of Sand - Animated Battlemap spooky desert",
+      "czepeku_tags": [
+        "temple",
+        "entrance",
+        "bridge",
+        "desert",
+        "sand"
+      ]
     },
     {
       "id": "train-station-concourse",
@@ -93781,8 +94662,11 @@
       "smart_tags": [
         "arcane",
         "gore",
+        "machinery",
+        "room",
         "ruins",
         "spooky",
+        "urban",
         "weather"
       ],
       "has_animated": false,
@@ -94029,7 +94913,12 @@
           ]
         }
       ],
-      "searchable_text": "Train Station Concourse Train Station Concourse spooky ruins arcane weather gore"
+      "searchable_text": "Train Station Concourse Train Station Concourse spooky ruins arcane weather gore",
+      "czepeku_tags": [
+        "machinery",
+        "urban",
+        "room"
+      ]
     },
     {
       "id": "train-station-platforms",
@@ -94038,8 +94927,12 @@
       "smart_tags": [
         "gore",
         "hell",
+        "platform",
+        "railway",
+        "room",
         "ruins",
         "ship",
+        "urban",
         "weather",
         "winter"
       ],
@@ -94493,13 +95386,22 @@
           ]
         }
       ],
-      "searchable_text": "Train Station Platforms Train Station Platforms winter ruins gore ship weather hell"
+      "searchable_text": "Train Station Platforms Train Station Platforms winter ruins gore ship weather hell",
+      "czepeku_tags": [
+        "platform",
+        "room",
+        "urban",
+        "railway"
+      ]
     },
     {
       "id": "tranquil-apiary---animated-battlemap",
       "folder_name": "Tranquil Apiary - Animated Battlemap",
       "title": "Tranquil Apiary - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "farm",
+        "garden"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": true,
@@ -94545,13 +95447,21 @@
           ]
         }
       ],
-      "searchable_text": "Tranquil Apiary - Animated Battlemap Tranquil Apiary - Animated Battlemap "
+      "searchable_text": "Tranquil Apiary - Animated Battlemap Tranquil Apiary - Animated Battlemap ",
+      "czepeku_tags": [
+        "farm",
+        "garden"
+      ]
     },
     {
       "id": "tutelary-turtle-island---animated-battlemap",
       "folder_name": "Tutelary Turtle Island - Animated Battlemap",
       "title": "Tutelary Turtle Island - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "creature",
+        "shrine",
+        "water"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -94635,14 +95545,24 @@
           ]
         }
       ],
-      "searchable_text": "Tutelary Turtle Island - Animated Battlemap Tutelary Turtle Island - Animated Battlemap "
+      "searchable_text": "Tutelary Turtle Island - Animated Battlemap Tutelary Turtle Island - Animated Battlemap ",
+      "czepeku_tags": [
+        "shrine",
+        "creature",
+        "water"
+      ]
     },
     {
       "id": "vampire-mansion",
       "folder_name": "Vampire Mansion",
       "title": "Vampire Mansion",
       "smart_tags": [
+        "complex",
+        "interior exterior",
+        "palace",
+        "quarters",
         "spooky",
+        "temple",
         "weather",
         "winter"
       ],
@@ -94909,13 +95829,25 @@
           ]
         }
       ],
-      "searchable_text": "Vampire Mansion Vampire Mansion spooky weather winter"
+      "searchable_text": "Vampire Mansion Vampire Mansion spooky weather winter",
+      "czepeku_tags": [
+        "interior exterior",
+        "quarters",
+        "temple",
+        "complex",
+        "palace"
+      ]
     },
     {
       "id": "village-blacksmith---animated-battlemap",
       "folder_name": "Village Blacksmith - Animated Battlemap",
       "title": "Village Blacksmith - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "forge",
+        "pool",
+        "village",
+        "workshop"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -94961,14 +95893,27 @@
           ]
         }
       ],
-      "searchable_text": "Village Blacksmith - Animated Battlemap Village Blacksmith - Animated Battlemap "
+      "searchable_text": "Village Blacksmith - Animated Battlemap Village Blacksmith - Animated Battlemap ",
+      "czepeku_tags": [
+        "village",
+        "forge",
+        "workshop",
+        "pool"
+      ]
     },
     {
       "id": "village-wainwright-shop---animated-battlemap",
       "folder_name": "Village Wainwright Shop - Animated Battlemap",
       "title": "Village Wainwright Shop - Animated Battlemap",
       "smart_tags": [
-        "urban"
+        "bridge",
+        "construction",
+        "forest",
+        "market",
+        "river",
+        "road",
+        "urban",
+        "workshop"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -95019,13 +95964,27 @@
           ]
         }
       ],
-      "searchable_text": "Village Wainwright Shop - Animated Battlemap Village Wainwright Shop - Animated Battlemap urban"
+      "searchable_text": "Village Wainwright Shop - Animated Battlemap Village Wainwright Shop - Animated Battlemap urban",
+      "czepeku_tags": [
+        "river",
+        "workshop",
+        "market",
+        "bridge",
+        "road",
+        "construction",
+        "forest"
+      ]
     },
     {
       "id": "void-dragon-lair---animated-battlemap",
       "folder_name": "Void Dragon Lair - Animated Battlemap",
       "title": "Void Dragon Lair - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "astral",
+        "creature",
+        "egg",
+        "rock"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -95071,7 +96030,13 @@
           ]
         }
       ],
-      "searchable_text": "Void Dragon Lair - Animated Battlemap Void Dragon Lair - Animated Battlemap "
+      "searchable_text": "Void Dragon Lair - Animated Battlemap Void Dragon Lair - Animated Battlemap ",
+      "czepeku_tags": [
+        "astral",
+        "egg",
+        "creature",
+        "rock"
+      ]
     },
     {
       "id": "warforged-titan-scrapyard",
@@ -95079,10 +96044,15 @@
       "title": "Warforged Titan Scrapyard",
       "smart_tags": [
         "fire",
+        "machinery",
         "night",
+        "river",
+        "robot",
         "ruins",
+        "technology",
         "weather",
-        "winter"
+        "winter",
+        "wreck"
       ],
       "has_animated": false,
       "has_thumbs": false,
@@ -95336,7 +96306,14 @@
           ]
         }
       ],
-      "searchable_text": "Warforged Titan Scrapyard Warforged Titan Scrapyard night winter ruins fire weather"
+      "searchable_text": "Warforged Titan Scrapyard Warforged Titan Scrapyard night winter ruins fire weather",
+      "czepeku_tags": [
+        "wreck",
+        "technology",
+        "machinery",
+        "river",
+        "robot"
+      ]
     },
     {
       "id": "wild-west-saloon",
@@ -95348,6 +96325,7 @@
         "gore",
         "night",
         "spooky",
+        "tavern",
         "underwater",
         "weather",
         "winter"
@@ -95993,16 +96971,22 @@
           ]
         }
       ],
-      "searchable_text": "Wild West Saloon Wild West Saloon night arcane weather gore spooky winter underwater desert"
+      "searchable_text": "Wild West Saloon Wild West Saloon night arcane weather gore spooky winter underwater desert",
+      "czepeku_tags": [
+        "desert",
+        "tavern"
+      ]
     },
     {
       "id": "windmill-farm",
       "folder_name": "Windmill Farm",
       "title": "Windmill Farm",
       "smart_tags": [
+        "farm",
         "fire",
         "forest",
         "gore",
+        "mill",
         "swamp"
       ],
       "has_animated": false,
@@ -96216,13 +97200,20 @@
           ]
         }
       ],
-      "searchable_text": "Windmill Farm Windmill Farm forest fire swamp gore"
+      "searchable_text": "Windmill Farm Windmill Farm forest fire swamp gore",
+      "czepeku_tags": [
+        "farm",
+        "mill"
+      ]
     },
     {
       "id": "windmill-farm---animated-battlemap",
       "folder_name": "Windmill Farm - Animated Battlemap",
       "title": "Windmill Farm - Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "farm",
+        "mill"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -96268,14 +97259,24 @@
           ]
         }
       ],
-      "searchable_text": "Windmill Farm - Animated Battlemap Windmill Farm - Animated Battlemap "
+      "searchable_text": "Windmill Farm - Animated Battlemap Windmill Farm - Animated Battlemap ",
+      "czepeku_tags": [
+        "farm",
+        "mill"
+      ]
     },
     {
       "id": "wizard-prison-part-1---animated-battlemap",
       "folder_name": "Wizard Prison Part 1 - Animated Battlemap",
       "title": "Wizard Prison Part 1 - Animated Battlemap",
       "smart_tags": [
-        "arcane"
+        "arcane",
+        "astral",
+        "entrance",
+        "portal",
+        "rock",
+        "ruin",
+        "wasteland"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -96326,7 +97327,15 @@
           ]
         }
       ],
-      "searchable_text": "Wizard Prison Part 1 - Animated Battlemap Wizard Prison Part 1 - Animated Battlemap arcane"
+      "searchable_text": "Wizard Prison Part 1 - Animated Battlemap Wizard Prison Part 1 - Animated Battlemap arcane",
+      "czepeku_tags": [
+        "astral",
+        "wasteland",
+        "rock",
+        "entrance",
+        "ruin",
+        "portal"
+      ]
     },
     {
       "id": "wizard-prison-part-4---animated-battlemap",
@@ -96392,7 +97401,13 @@
       "title": "Wonderful Wizard Waterfall - Animated Battlemap",
       "smart_tags": [
         "arcane",
-        "underwater"
+        "building",
+        "cliff",
+        "garden",
+        "hill",
+        "rainbow",
+        "underwater",
+        "waterfall"
       ],
       "has_animated": true,
       "has_thumbs": false,
@@ -96445,13 +97460,24 @@
           ]
         }
       ],
-      "searchable_text": "Wonderful Wizard Waterfall - Animated Battlemap Wonderful Wizard Waterfall - Animated Battlemap underwater arcane"
+      "searchable_text": "Wonderful Wizard Waterfall - Animated Battlemap Wonderful Wizard Waterfall - Animated Battlemap underwater arcane",
+      "czepeku_tags": [
+        "rainbow",
+        "waterfall",
+        "garden",
+        "hill",
+        "building",
+        "cliff"
+      ]
     },
     {
       "id": "zen-monastery",
       "folder_name": "Zen Monastery",
       "title": "Zen Garden Monastery",
       "smart_tags": [
+        "island",
+        "shrine",
+        "water",
         "winter"
       ],
       "has_animated": false,
@@ -96605,13 +97631,22 @@
           ]
         }
       ],
-      "searchable_text": "Zen Monastery Zen Garden Monastery winter"
+      "searchable_text": "Zen Monastery Zen Garden Monastery winter",
+      "czepeku_tags": [
+        "shrine",
+        "water",
+        "island"
+      ]
     },
     {
       "id": "zen-monastery-animated-battlemap",
       "folder_name": "Zen Monastery-Animated Battlemap",
       "title": "Zen Monastery-Animated Battlemap",
-      "smart_tags": [],
+      "smart_tags": [
+        "island",
+        "shrine",
+        "water"
+      ],
       "has_animated": true,
       "has_thumbs": false,
       "files_in_root": false,
@@ -96657,7 +97692,12 @@
           ]
         }
       ],
-      "searchable_text": "Zen Monastery-Animated Battlemap Zen Monastery-Animated Battlemap "
+      "searchable_text": "Zen Monastery-Animated Battlemap Zen Monastery-Animated Battlemap ",
+      "czepeku_tags": [
+        "shrine",
+        "water",
+        "island"
+      ]
     }
   ]
 }
