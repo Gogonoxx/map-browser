@@ -1,0 +1,19 @@
+{
+  "MAP_BROWSER": {
+    "Title": "Cze & Peku Map Browser",
+    "Search": "Search maps...",
+    "Locations": "locations",
+    "Flavors": "flavors",
+    "Files": "files",
+    "CreateScene": "Create Scene",
+    "Preview": "Preview",
+    "NoResults": "No maps found",
+    "Loading": "Loading maps...",
+    "ConfigureOneDrive": "Please configure OneDrive sharing first",
+    "SceneCreated": "Scene created",
+    "ActivateScene": "Activate scene now?",
+    "Animated": "Animated",
+    "Day": "Day",
+    "Night": "Night"
+  }
+}
