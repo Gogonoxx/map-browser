@@ -2,7 +2,7 @@
   "id": "map-browser",
   "title": "Cze & Peku Map Browser",
   "description": "Browse and use Cze & Peku maps from OneDrive. One-click Scene creation without using Forge storage.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Gogonoxx"

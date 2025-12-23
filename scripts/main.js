@@ -312,20 +312,19 @@ Hooks.once('ready', () => {
   };
 });
 
-// Add scene control button
+// Add scene control button (V13 API: controls is Record<string, SceneControl>)
 Hooks.on('getSceneControlButtons', (controls) => {
-  // Find the token controls group
-  const tokenControls = controls.find(c => c.name === 'token');
-  if (!tokenControls || !game.user.isGM) return;
-
-  // Add our button
-  tokenControls.tools.push({
-    name: 'map-browser',
-    title: 'Cze & Peku Map Browser',
-    icon: 'fas fa-map',
-    button: true,
-    onClick: () => {
-      MapBrowser.open();
-    }
-  });
+  const tokenControls = controls.tokens;
+  if (tokenControls?.tools) {
+    tokenControls.tools['map-browser'] = {
+      name: 'map-browser',
+      title: 'Cze & Peku Map Browser',
+      icon: 'fas fa-map',
+      button: true,
+      visible: game.user.isGM,
+      onClick: () => {
+        MapBrowser.open();
+      }
+    };
+  }
 });
