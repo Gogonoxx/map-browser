@@ -41,6 +41,7 @@ class MapBrowserApp extends HandlebarsApplicationMixin(ApplicationV2) {
   #searchQuery = '';
   #expandedLocation = null;
   #loading = true;
+  #cursorPosition = undefined;
 
   constructor(options = {}) {
     super(options);
@@ -230,14 +231,21 @@ class MapBrowserApp extends HandlebarsApplicationMixin(ApplicationV2) {
     let searchTimeout;
     searchInput?.addEventListener('input', (ev) => {
       clearTimeout(searchTimeout);
+      const cursorPos = ev.target.selectionStart;
       searchTimeout = setTimeout(() => {
         this.#searchQuery = ev.target.value;
+        this.#cursorPosition = cursorPos;
         this.render();
-      }, 300);
+      }, 500); // Longer debounce for smoother typing
     });
 
-    // Keep focus on search input
-    searchInput?.focus();
+    // Restore cursor position after render
+    if (searchInput && this.#cursorPosition !== undefined) {
+      searchInput.focus();
+      searchInput.setSelectionRange(this.#cursorPosition, this.#cursorPosition);
+    } else if (searchInput && !this.#searchQuery) {
+      searchInput.focus();
+    }
 
     // Location card click → expand/collapse
     html.querySelectorAll('[data-action="toggle-location"]').forEach(el => {
