@@ -124,6 +124,7 @@
 .locations-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(95px, auto);
   gap: 0.75rem;
   overflow-y: auto;
   flex: 1;
@@ -141,6 +142,8 @@
   border-radius: 6px;
   overflow: hidden;
   transition: all 0.2s ease;
+  min-height: 95px;
+  height: fit-content;
 }
 
 .location-card:hover {
