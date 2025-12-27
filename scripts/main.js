@@ -175,12 +175,9 @@ class MapBrowserApp extends HandlebarsApplicationMixin(ApplicationV2) {
   }
 
   #getThumbnailUrl(location) {
-    // Use local thumbnail from module folder (fast loading)
-    if (location.thumbnail) {
-      return `modules/${MODULE_ID}/data/thumbs/${location.folder_name}.jpg`;
-    }
-    // Fallback to placeholder
-    return 'icons/svg/mystery-man.svg';
+    // Load thumbnails from GitHub (keeps module size small)
+    const encodedName = encodeURIComponent(location.folder_name);
+    return `https://raw.githubusercontent.com/Gogonoxx/map-browser/main/data/thumbs/${encodedName}.jpg`;
   }
 
   #getVariantThumbUrl(locationId, flavorName, filename) {
@@ -188,7 +185,8 @@ class MapBrowserApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const key = `${locationId}|${flavorName}|${filename}`;
     const variantId = this.#variantMapping[key];
     if (variantId) {
-      return `modules/${MODULE_ID}/data/variant-thumbs/${variantId}.webp`;
+      // Load variant thumbnails from GitHub
+      return `https://raw.githubusercontent.com/Gogonoxx/map-browser/main/data/variant-thumbs/${variantId}.webp`;
     }
     return null;
   }
