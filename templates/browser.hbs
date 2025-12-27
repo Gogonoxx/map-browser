@@ -12,6 +12,14 @@
         <input type="text" name="search" placeholder="{{localize 'MAP_BROWSER.Search'}}"
                value="{{searchQuery}}" autofocus>
       </div>
+      <button class="animated-toggle {{#if showAnimatedOnly}}active{{/if}}" data-action="toggle-animated" title="{{#if showAnimatedOnly}}Alle Maps anzeigen{{else}}Nur animierte Maps{{/if}}">
+        <i class="fas fa-film"></i>
+        {{#if showAnimatedOnly}}
+          Animiert ({{animatedCount}})
+        {{else}}
+          Alle
+        {{/if}}
+      </button>
       <div class="stats">
         <span class="stat">
           <i class="fas fa-map-marker-alt"></i>
@@ -90,37 +98,81 @@
                     {{/each}}
                   </div>
                   <div class="flavor-files">
-                    {{#each files}}
-                      <div class="file-item {{#if animated}}animated{{/if}}">
-                        <span class="file-name">
-                          {{#if animated}}<i class="fas fa-film"></i>{{/if}}
-                          {{#if sub_variant}}
-                            {{sub_variant}}
-                          {{else}}
-                            Standard
-                          {{/if}}
-                        </span>
-                        <div class="file-actions">
-                          <button class="btn-icon btn-preview"
-                                  data-action="preview"
-                                  data-location-id="{{../../id}}"
-                                  data-flavor-index="{{@../index}}"
-                                  data-file-index="{{@index}}"
-                                  title="{{localize 'MAP_BROWSER.Preview'}}">
-                            <i class="fas fa-eye"></i>
-                          </button>
-                          <button class="btn-primary btn-create"
-                                  data-action="create-scene"
-                                  data-location-id="{{../../id}}"
-                                  data-flavor-index="{{@../index}}"
-                                  data-file-index="{{@index}}"
-                                  title="{{localize 'MAP_BROWSER.CreateScene'}}">
-                            <i class="fas fa-plus"></i>
-                            Scene
-                          </button>
-                        </div>
+                    {{!-- Beneos Maps: Show Scenery + Battlemap with thumbnails --}}
+                    {{#if scenery_files}}
+                      <div class="beneos-actions">
+                        {{#if scenery_files.length}}
+                          <div class="beneos-option">
+                            {{#if scenery_files.0.variantThumb}}
+                              <img class="variant-thumbnail" src="{{scenery_files.0.variantThumb}}" alt="Scenery"
+                                   loading="lazy" onerror="this.style.display='none'">
+                            {{/if}}
+                            <button class="btn-beneos btn-scenery"
+                                    data-action="create-beneos-scene"
+                                    data-location-id="{{../id}}"
+                                    data-flavor-index="{{@index}}"
+                                    data-file-type="scenery"
+                                    title="Cinematic Scenery erstellen">
+                              <i class="fas fa-film"></i>
+                              Scenery
+                              {{#if scenery_files.0.animated}}<span class="badge-animated">▶</span>{{/if}}
+                            </button>
+                          </div>
+                        {{/if}}
+                        {{#if battlemap_files.length}}
+                          <div class="beneos-option">
+                            {{#if battlemap_files.0.variantThumb}}
+                              <img class="variant-thumbnail" src="{{battlemap_files.0.variantThumb}}" alt="Battlemap"
+                                   loading="lazy" onerror="this.style.display='none'">
+                            {{/if}}
+                            <button class="btn-beneos btn-battlemap"
+                                    data-action="create-beneos-scene"
+                                    data-location-id="{{../id}}"
+                                    data-flavor-index="{{@index}}"
+                                    data-file-type="battlemap"
+                                    title="Battlemap erstellen">
+                              <i class="fas fa-chess-board"></i>
+                              Battlemap
+                              {{#if battlemap_files.0.animated}}<span class="badge-animated">▶</span>{{/if}}
+                            </button>
+                          </div>
+                        {{/if}}
+                        {{#if audio_file}}
+                          <span class="audio-indicator" title="Audio verfügbar: {{audio_file}}">
+                            <i class="fas fa-volume-up"></i>
+                          </span>
+                        {{/if}}
                       </div>
-                    {{/each}}
+                    {{else}}
+                      {{!-- Czepeku Maps: Original file list --}}
+                      {{#each files}}
+                        <div class="file-item {{#if animated}}animated{{/if}}">
+                          {{#if variantThumb}}
+                            <img class="variant-thumbnail" src="{{variantThumb}}" alt=""
+                                 loading="lazy" onerror="this.style.display='none'">
+                          {{/if}}
+                          <span class="file-name">
+                            {{#if animated}}<i class="fas fa-film"></i>{{/if}}
+                            {{#if sub_variant}}
+                              {{sub_variant}}
+                            {{else}}
+                              Standard
+                            {{/if}}
+                          </span>
+                          <div class="file-actions">
+                            <button class="btn-primary btn-create"
+                                    data-action="create-scene"
+                                    data-location-id="{{../../id}}"
+                                    data-flavor-index="{{@../index}}"
+                                    data-file-index="{{@index}}"
+                                    title="{{localize 'MAP_BROWSER.CreateScene'}}">
+                              <i class="fas fa-plus"></i>
+                              Scene
+                            </button>
+                          </div>
+                        </div>
+                      {{/each}}
+                    {{/if}}
                   </div>
                 </div>
               {{/each}}

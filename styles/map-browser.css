@@ -53,6 +53,38 @@
   border-color: rgba(139, 32, 32, 0.5);
 }
 
+/* Animated Toggle */
+.animated-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  color: #aaa;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.animated-toggle:hover {
+  background: rgba(156, 39, 176, 0.2);
+  border-color: rgba(156, 39, 176, 0.4);
+  color: #ce93d8;
+}
+
+.animated-toggle.active {
+  background: rgba(156, 39, 176, 0.3);
+  border-color: rgba(156, 39, 176, 0.6);
+  color: #ce93d8;
+}
+
+.animated-toggle i {
+  color: inherit;
+}
+
 .stats {
   display: flex;
   gap: 1rem;
@@ -140,10 +172,12 @@
   background: rgba(0, 0, 0, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
-  overflow: hidden;
+  overflow: visible;
   transition: all 0.2s ease;
   min-height: 95px;
   height: fit-content;
+  position: relative;
+  z-index: 1;
 }
 
 .location-card:hover {
@@ -154,7 +188,8 @@
   grid-column: 1 / -1;
   border-color: rgba(139, 32, 32, 0.5);
   position: relative;
-  z-index: 100;
+  z-index: 1000;
+  background: rgba(20, 10, 10, 0.95);
 }
 
 /* Card Header */
@@ -182,6 +217,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   flex-shrink: 0;
   background: rgba(0, 0, 0, 0.3);
+  cursor: zoom-in;
 }
 
 .card-info {
@@ -253,6 +289,9 @@
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+  /* Default background for tags without specific colors */
+  background: #37474f;
+  color: #b0bec5;
 }
 
 .tag.small {
@@ -260,25 +299,37 @@
   font-size: 0.6rem;
 }
 
-/* Tag Colors */
+/* Tag Colors - Themed */
 .tag-spooky { background: #4a148c; color: #e1bee7; }
-.tag-gore { background: #b71c1c; color: #ffcdd2; }
-.tag-hell { background: #bf360c; color: #ffccbc; }
-.tag-underwater { background: #0277bd; color: #b3e5fc; }
-.tag-forest { background: #2e7d32; color: #c8e6c9; }
-.tag-cave { background: #4e342e; color: #d7ccc8; }
-.tag-urban { background: #455a64; color: #cfd8dc; }
-.tag-winter { background: #0097a7; color: #b2ebf2; }
-.tag-fire { background: #e65100; color: #ffe0b2; }
-.tag-night { background: #1a237e; color: #c5cae9; }
-.tag-weather { background: #00695c; color: #b2dfdb; }
-.tag-desert { background: #f57f17; color: #fff9c4; }
-.tag-swamp { background: #33691e; color: #dcedc8; }
-.tag-mountain { background: #5d4037; color: #d7ccc8; }
-.tag-holy { background: #ffd600; color: #3e2723; }
-.tag-arcane { background: #6a1b9a; color: #e1bee7; }
-.tag-ship { background: #01579b; color: #b3e5fc; }
-.tag-ruins { background: #3e2723; color: #d7ccc8; }
+.tag-gore, .tag-blood { background: #b71c1c; color: #ffcdd2; }
+.tag-hell, .tag-infernal, .tag-lava { background: #bf360c; color: #ffccbc; }
+.tag-underwater, .tag-ocean, .tag-water { background: #0277bd; color: #b3e5fc; }
+.tag-forest, .tag-jungle, .tag-tree { background: #2e7d32; color: #c8e6c9; }
+.tag-cave, .tag-cavern, .tag-mine { background: #4e342e; color: #d7ccc8; }
+.tag-urban, .tag-city, .tag-building { background: #455a64; color: #cfd8dc; }
+.tag-winter, .tag-snow, .tag-frozen, .tag-ice { background: #0097a7; color: #b2ebf2; }
+.tag-fire, .tag-volcano { background: #e65100; color: #ffe0b2; }
+.tag-night, .tag-darkness { background: #1a237e; color: #c5cae9; }
+.tag-weather, .tag-rain, .tag-fog, .tag-storm { background: #00695c; color: #b2dfdb; }
+.tag-desert, .tag-sand, .tag-oasis { background: #f57f17; color: #fff9c4; }
+.tag-swamp, .tag-toxic { background: #33691e; color: #dcedc8; }
+.tag-mountain, .tag-cliff, .tag-canyon { background: #5d4037; color: #d7ccc8; }
+.tag-holy, .tag-celestial, .tag-temple { background: #ffd600; color: #3e2723; }
+.tag-arcane, .tag-magic, .tag-portal, .tag-runes { background: #6a1b9a; color: #e1bee7; }
+.tag-ship, .tag-airship, .tag-vehicle { background: #01579b; color: #b3e5fc; }
+.tag-ruins, .tag-abandoned, .tag-destruction { background: #3e2723; color: #d7ccc8; }
+.tag-fey, .tag-garden, .tag-spring { background: #7cb342; color: #1b5e20; }
+.tag-astral, .tag-sky, .tag-clouds { background: #5c6bc0; color: #e8eaf6; }
+.tag-crystal, .tag-bioluminescent { background: #00bcd4; color: #e0f7fa; }
+.tag-drow, .tag-eldritch, .tag-shadow { background: #311b92; color: #d1c4e9; }
+.tag-autumn { background: #e65100; color: #fff3e0; }
+.tag-sunrise, .tag-sunset { background: #ff6f00; color: #fff8e1; }
+.tag-bridge, .tag-road { background: #6d4c41; color: #d7ccc8; }
+.tag-prison, .tag-dungeon, .tag-crypt { background: #263238; color: #b0bec5; }
+.tag-tavern, .tag-shop, .tag-market { background: #8d6e63; color: #efebe9; }
+.tag-graveyard, .tag-bones, .tag-corpse, .tag-spectral { background: #424242; color: #e0e0e0; }
+.tag-machinery, .tag-technology, .tag-robot { background: #607d8b; color: #eceff1; }
+.tag-treasure, .tag-gold { background: #ffc107; color: #3e2723; }
 
 /* ============================================================================
    Flavors Panel
@@ -286,13 +337,15 @@
 
 .flavors-panel {
   padding: 0.75rem;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(15, 8, 8, 0.98);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 0.75rem;
   max-height: 400px;
   overflow-y: auto;
+  position: relative;
+  z-index: 1001;
 }
 
 .flavor-group {
@@ -304,10 +357,17 @@
 .flavor-header {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.35rem;
   padding-bottom: 0.35rem;
   margin-bottom: 0.35rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  max-height: 3.5rem;
+}
+
+.flavor-header .tag {
+  flex-shrink: 0;
 }
 
 .flavor-name {
@@ -330,6 +390,37 @@
   background: rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   border: 1px solid transparent;
+  gap: 0.5rem;
+}
+
+.variant-thumbnail {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+  cursor: zoom-in;
+}
+
+/* Enlarged preview overlay - created by JavaScript */
+.thumbnail-preview-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  max-width: 60vw;
+  max-height: 60vh;
+  object-fit: contain;
+  z-index: 10000;
+  border: 3px solid rgba(139, 32, 32, 0.8);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+  background: #1a1a1a;
+  pointer-events: none;
 }
 
 .file-item:hover {
@@ -451,3 +542,116 @@
 .flavors-panel::-webkit-scrollbar-thumb:hover {
   background: rgba(139, 32, 32, 0.6);
 }
+
+/* ============================================================================
+   Beneos Map Buttons
+   ============================================================================ */
+
+.beneos-actions {
+  display: flex;
+  align-items: stretch;
+  gap: 0.75rem;
+  padding: 0.25rem 0;
+  flex-wrap: wrap;
+}
+
+.beneos-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 0.35rem;
+}
+
+.beneos-option .variant-thumbnail {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.btn-beneos {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  border: 1px solid transparent;
+}
+
+/* Scenery Button - Purple/Cinematic */
+.btn-scenery {
+  background: linear-gradient(to bottom, #7b1fa2, #6a1b9a);
+  border-color: #4a148c;
+  color: #fff;
+}
+
+.btn-scenery:hover {
+  background: linear-gradient(to bottom, #8e24aa, #7b1fa2);
+  box-shadow: 0 2px 8px rgba(123, 31, 162, 0.4);
+}
+
+.btn-scenery i {
+  color: #e1bee7;
+}
+
+/* Battlemap Button - Green/Tactical */
+.btn-battlemap {
+  background: linear-gradient(to bottom, #388e3c, #2e7d32);
+  border-color: #1b5e20;
+  color: #fff;
+}
+
+.btn-battlemap:hover {
+  background: linear-gradient(to bottom, #43a047, #388e3c);
+  box-shadow: 0 2px 8px rgba(56, 142, 60, 0.4);
+}
+
+.btn-battlemap i {
+  color: #c8e6c9;
+}
+
+/* Animated indicator badge */
+.badge-animated {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  font-size: 0.6rem;
+  margin-left: 0.25rem;
+}
+
+/* Audio indicator */
+.audio-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  color: #90caf9;
+  opacity: 0.7;
+}
+
+.audio-indicator:hover {
+  opacity: 1;
+}
+
+/* Beneos location card styling */
+.location-card[data-location-id^="beneos-"] .location-title::before {
+  content: "🎬 ";
+  font-size: 0.85em;
+}
+
+/* Beneos tag */
+.tag-gothic { background: #37474f; color: #b0bec5; }
+.tag-curse-of-strahd, .tag-cos { background: #4a148c; color: #e1bee7; }
+.tag-descent-into-avernus, .tag-dia { background: #bf360c; color: #ffccbc; }

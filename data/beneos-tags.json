@@ -1,0 +1,872 @@
+{
+  "_comment": "Beneos Battlemaps Tag-Definitionen für Map Browser Integration",
+  "_version": "1.0.0",
+
+  "keyword_mapping": {
+    "_comment": "Automatische Tag-Ableitung aus Unterordner-Namen",
+    "bridge": ["bridge"],
+    "entry": ["entrance"],
+    "entrance": ["entrance"],
+    "gate": ["entrance", "fortification"],
+    "door": ["entrance"],
+    "hall": ["interior"],
+    "room": ["interior", "room"],
+    "chamber": ["interior", "room"],
+    "cathedral": ["temple", "altar"],
+    "chapel": ["temple", "altar"],
+    "church": ["temple", "altar"],
+    "temple": ["temple"],
+    "shrine": ["shrine", "altar"],
+    "altar": ["altar"],
+    "tower": ["tower"],
+    "roof": ["rooftop", "exterior"],
+    "rooftop": ["rooftop"],
+    "courtyard": ["courtyard", "exterior"],
+    "court": ["courtyard"],
+    "garden": ["garden", "exterior"],
+    "kitchen": ["interior"],
+    "dining": ["interior", "tavern"],
+    "tavern": ["tavern", "interior"],
+    "inn": ["tavern", "interior"],
+    "bar": ["tavern"],
+    "cellar": ["cellar", "underground"],
+    "basement": ["cellar", "underground"],
+    "crypt": ["crypt", "underground"],
+    "tomb": ["crypt", "graveyard"],
+    "cemetery": ["graveyard"],
+    "graveyard": ["graveyard"],
+    "dungeon": ["dungeon", "underground"],
+    "prison": ["prison", "interior"],
+    "jail": ["prison"],
+    "cave": ["cavern", "underground"],
+    "cavern": ["cavern"],
+    "tunnel": ["cavern", "underground"],
+    "underground": ["underground"],
+    "underdark": ["underground", "dark"],
+    "mine": ["mine", "underground"],
+    "sewer": ["sewer", "underground"],
+    "lake": ["water", "shore"],
+    "river": ["water", "river"],
+    "pool": ["water", "pool"],
+    "waterfall": ["waterfall", "water"],
+    "falls": ["waterfall"],
+    "shore": ["shore", "water"],
+    "beach": ["beach", "shore"],
+    "harbor": ["docks", "water"],
+    "harbour": ["docks", "water"],
+    "dock": ["docks"],
+    "docks": ["docks"],
+    "port": ["docks"],
+    "ship": ["ship"],
+    "boat": ["ship"],
+    "deck": ["ship"],
+    "airship": ["airship", "sky"],
+    "forest": ["forest"],
+    "woods": ["forest"],
+    "tree": ["forest", "tree"],
+    "jungle": ["jungle"],
+    "swamp": ["swamp"],
+    "marsh": ["swamp"],
+    "bog": ["swamp"],
+    "mountain": ["mountain"],
+    "cliff": ["cliff"],
+    "canyon": ["canyon", "cliff"],
+    "gorge": ["canyon", "chasm"],
+    "chasm": ["chasm"],
+    "pit": ["pit", "underground"],
+    "arena": ["arena"],
+    "combat": ["arena"],
+    "fight": ["arena"],
+    "throne": ["throne", "interior"],
+    "library": ["library", "interior"],
+    "laboratory": ["laboratory", "interior"],
+    "workshop": ["workshop", "interior"],
+    "forge": ["forge", "fire"],
+    "smith": ["forge"],
+    "market": ["market", "urban"],
+    "shop": ["shop", "interior"],
+    "street": ["streets", "urban"],
+    "streets": ["streets", "urban"],
+    "road": ["road"],
+    "path": ["road"],
+    "pass": ["road", "mountain"],
+    "camp": ["camp"],
+    "tent": ["camp"],
+    "campfire": ["camp", "fire"],
+    "village": ["village"],
+    "town": ["village", "urban"],
+    "city": ["urban"],
+    "ruins": ["ruin"],
+    "ruined": ["ruin", "abandoned"],
+    "ruin": ["ruin"],
+    "abandoned": ["abandoned"],
+    "haunted": ["shadow", "spirits"],
+    "ghost": ["spirits", "shadow"],
+    "dark": ["dark"],
+    "bright": ["illumination"],
+    "light": ["illumination"],
+    "fire": ["fire"],
+    "burning": ["fire", "destruction"],
+    "lava": ["lava", "fire"],
+    "molten": ["lava", "fire"],
+    "ice": ["frozen", "snow"],
+    "frozen": ["frozen"],
+    "snow": ["snow", "frozen"],
+    "winter": ["snow", "frozen"],
+    "crystal": ["crystal"],
+    "mushroom": ["fungi"],
+    "fungus": ["fungi"],
+    "spider": ["infested", "creature"],
+    "web": ["webs", "infested"],
+    "nest": ["nest", "creature"],
+    "lair": ["lair"],
+    "den": ["lair"],
+    "goblin": ["goblin"],
+    "orc": ["military"],
+    "demon": ["infernal"],
+    "devil": ["infernal"],
+    "infernal": ["infernal"],
+    "hell": ["infernal", "fire"],
+    "abyss": ["infernal", "dark"],
+    "astral": ["astral"],
+    "ethereal": ["astral"],
+    "portal": ["portal", "magic"],
+    "magic": ["magic"],
+    "arcane": ["magic"],
+    "wizard": ["magic"],
+    "mage": ["magic"],
+    "necromancer": ["dark", "corpse"],
+    "overlook": ["exterior", "cliff"],
+    "balcony": ["exterior", "elevated"],
+    "wall": ["fortification"],
+    "battlement": ["fortification"],
+    "fortress": ["fortification", "military"],
+    "fort": ["fortification"],
+    "manor": ["palace", "interior"],
+    "mansion": ["palace", "interior"],
+    "villa": ["palace"],
+    "palace": ["palace"],
+    "castle": ["castle"],
+    "island": ["island", "water"]
+  },
+
+  "locations": {
+    "a-pair-of-black-antlers-tavern": {
+      "folder_name": "A Pair of Black Antlers Tavern",
+      "title": "A Pair of Black Antlers Tavern",
+      "base_tags": ["tavern", "interior", "gothic"],
+      "setting": "curse-of-strahd"
+    },
+    "amber-temple-1f": {
+      "folder_name": "Amber Temple 1F",
+      "title": "Amber Temple 1F",
+      "base_tags": ["temple", "dungeon", "abandoned", "ruin", "dark", "magic"],
+      "setting": "curse-of-strahd"
+    },
+    "amber-temple-b1": {
+      "folder_name": "Amber Temple B1",
+      "title": "Amber Temple B1",
+      "base_tags": ["temple", "dungeon", "underground", "dark", "magic", "crypt"],
+      "setting": "curse-of-strahd"
+    },
+    "ankheg-nest": {
+      "folder_name": "Ankheg Nest",
+      "title": "Ankheg Nest",
+      "base_tags": ["cavern", "nest", "creature", "underground"],
+      "setting": "generic"
+    },
+    "arcane-library": {
+      "folder_name": "Arcane Library",
+      "title": "Arcane Library",
+      "base_tags": ["library", "magic", "interior"],
+      "setting": "generic"
+    },
+    "arctic-cave-harbour": {
+      "folder_name": "Arctic Cave Harbour",
+      "title": "Arctic Cave Harbour",
+      "base_tags": ["cavern", "frozen", "snow", "docks", "water"],
+      "setting": "generic"
+    },
+    "argynvostholt-manor": {
+      "folder_name": "Argynvostholt Manor",
+      "title": "Argynvostholt Manor",
+      "base_tags": ["palace", "ruin", "gothic", "graveyard", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "argynvostholt-manor-remake": {
+      "folder_name": "Argynvostholt Manor Remake",
+      "title": "Argynvostholt Manor (Remake)",
+      "base_tags": ["palace", "ruin", "gothic", "graveyard", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "ashur-fire-temple": {
+      "folder_name": "Ashur Fire Temple",
+      "title": "Ashur Fire Temple",
+      "base_tags": ["temple", "fire", "lava", "altar"],
+      "setting": "generic"
+    },
+    "astral-plane-castle": {
+      "folder_name": "Astral Plane Castle",
+      "title": "Astral Plane Castle",
+      "base_tags": ["astral", "castle", "magic", "celestial"],
+      "setting": "generic"
+    },
+    "baldurs-gate": {
+      "folder_name": "Baldurs Gate",
+      "title": "Baldur's Gate",
+      "base_tags": ["urban", "streets", "market", "docks"],
+      "setting": "descent-into-avernus"
+    },
+    "bandit-camp": {
+      "folder_name": "Bandit Camp",
+      "title": "Bandit Camp",
+      "base_tags": ["camp", "forest", "fortification"],
+      "setting": "generic"
+    },
+    "barovia-map": {
+      "folder_name": "Barovia Map",
+      "title": "Barovia Regional Map",
+      "base_tags": ["village", "gothic", "dark", "road"],
+      "setting": "curse-of-strahd"
+    },
+    "barovia-village": {
+      "folder_name": "Barovia Village",
+      "title": "Village of Barovia",
+      "base_tags": ["village", "gothic", "dark", "urban"],
+      "setting": "curse-of-strahd"
+    },
+    "berez-swamp-village-1": {
+      "folder_name": "Berez Swamp Village 1",
+      "title": "Berez Swamp Village 1",
+      "base_tags": ["swamp", "village", "ruin", "fog", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "berez-swamp-village-2": {
+      "folder_name": "Berez Swamp Village 2",
+      "title": "Berez Swamp Village 2",
+      "base_tags": ["swamp", "village", "ruin", "fog", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "black-carriage": {
+      "folder_name": "Black Carriage",
+      "title": "Black Carriage",
+      "base_tags": ["road", "vehicle", "gothic", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "blood-of-the-vine-tavern": {
+      "folder_name": "Blood of the Vine Tavern",
+      "title": "Blood of the Vine Tavern",
+      "base_tags": ["tavern", "interior", "gothic", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "canyon-pack": {
+      "folder_name": "Canyon Pack",
+      "title": "Canyon Pack",
+      "base_tags": ["canyon", "cliff", "road", "natural"],
+      "setting": "generic"
+    },
+    "castle-ravenloft-1f": {
+      "folder_name": "Castle Ravenloft 1F",
+      "title": "Castle Ravenloft - Ground Floor",
+      "base_tags": ["castle", "gothic", "dark", "interior"],
+      "setting": "curse-of-strahd"
+    },
+    "castle-ravenloft-3f": {
+      "folder_name": "Castle Ravenloft 3F",
+      "title": "Castle Ravenloft - Third Floor",
+      "base_tags": ["castle", "gothic", "dark", "interior"],
+      "setting": "curse-of-strahd"
+    },
+    "castle-ravenloft-4f-5f": {
+      "folder_name": "Castle Ravenloft 4F - 5F",
+      "title": "Castle Ravenloft - Fourth & Fifth Floor",
+      "base_tags": ["castle", "gothic", "dark", "interior", "tower"],
+      "setting": "curse-of-strahd"
+    },
+    "castle-ravenloft-6f-9f": {
+      "folder_name": "Castle Ravenloft 6F - 9F",
+      "title": "Castle Ravenloft - Upper Floors",
+      "base_tags": ["castle", "gothic", "dark", "interior", "tower"],
+      "setting": "curse-of-strahd"
+    },
+    "character-images": {
+      "folder_name": "Character Images",
+      "title": "Character Images (CoS)",
+      "base_tags": [],
+      "setting": "curse-of-strahd",
+      "skip": true
+    },
+    "city-of-widowhall-1": {
+      "folder_name": "City of Widowhall 1",
+      "title": "City of Widowhall - Part 1",
+      "base_tags": ["urban", "streets", "gothic", "dark"],
+      "setting": "generic"
+    },
+    "city-of-widowhall-2": {
+      "folder_name": "City of Widowhall 2",
+      "title": "City of Widowhall - Part 2",
+      "base_tags": ["urban", "streets", "gothic", "dark"],
+      "setting": "generic"
+    },
+    "city-ruins": {
+      "folder_name": "City Ruins",
+      "title": "City Ruins",
+      "base_tags": ["urban", "ruin", "abandoned", "destruction"],
+      "setting": "generic"
+    },
+    "crumbling-chapel": {
+      "folder_name": "Crumbling Chapel",
+      "title": "Crumbling Chapel",
+      "base_tags": ["temple", "ruin", "altar", "abandoned"],
+      "setting": "generic"
+    },
+    "crystal-cave": {
+      "folder_name": "Crystal Cave",
+      "title": "Crystal Cave",
+      "base_tags": ["cavern", "crystal", "underground", "illumination"],
+      "setting": "generic"
+    },
+    "cyberpunk-slums": {
+      "folder_name": "Cyberpunk Slums",
+      "title": "Cyberpunk Slums",
+      "base_tags": ["urban", "technology", "neon"],
+      "setting": "sci-fi"
+    },
+    "dia-character-images": {
+      "folder_name": "DiA Character Images",
+      "title": "Character Images (DiA)",
+      "base_tags": [],
+      "setting": "descent-into-avernus",
+      "skip": true
+    },
+    "dourcrag-forest-castle-1f": {
+      "folder_name": "Dourcrag Forest Castle 1F",
+      "title": "Dourcrag Forest Castle - Ground Floor",
+      "base_tags": ["castle", "forest", "ruin", "gothic"],
+      "setting": "generic"
+    },
+    "dourcrag-forest-castle-2f-3f": {
+      "folder_name": "Dourcrag Forest Castle 2F-3F",
+      "title": "Dourcrag Forest Castle - Upper Floors",
+      "base_tags": ["castle", "forest", "ruin", "gothic"],
+      "setting": "generic"
+    },
+    "dream-sequence": {
+      "folder_name": "Dream Sequence",
+      "title": "Dream Sequence",
+      "base_tags": ["dreamscape", "magic", "astral"],
+      "setting": "generic"
+    },
+    "dungeon-of-the-dead-three": {
+      "folder_name": "Dungeon of the Dead Three",
+      "title": "Dungeon of the Dead Three",
+      "base_tags": ["dungeon", "temple", "dark", "crypt", "altar"],
+      "setting": "descent-into-avernus"
+    },
+    "duskbreeze-forest": {
+      "folder_name": "Duskbreeze Forest",
+      "title": "Duskbreeze Forest",
+      "base_tags": ["forest", "clearing", "natural", "road"],
+      "setting": "generic"
+    },
+    "elfsong-tavern": {
+      "folder_name": "Elfsong Tavern",
+      "title": "Elfsong Tavern",
+      "base_tags": ["tavern", "interior", "urban"],
+      "setting": "descent-into-avernus"
+    },
+    "elturel-in-avernus": {
+      "folder_name": "Elturel in Avernus",
+      "title": "Elturel in Avernus",
+      "base_tags": ["infernal", "urban", "destruction", "fire", "lava"],
+      "setting": "descent-into-avernus"
+    },
+    "escalia-world-map": {
+      "folder_name": "Escalia World Map",
+      "title": "Escalia World Map",
+      "base_tags": [],
+      "setting": "generic",
+      "skip": true
+    },
+    "escape-from-elturgard": {
+      "folder_name": "Escape from Elturgard",
+      "title": "Escape from Elturgard",
+      "base_tags": ["urban", "destruction", "fire", "road"],
+      "setting": "descent-into-avernus"
+    },
+    "fall-of-elturel": {
+      "folder_name": "Fall of Elturel",
+      "title": "Fall of Elturel",
+      "base_tags": ["urban", "destruction", "fire", "infernal"],
+      "setting": "descent-into-avernus"
+    },
+    "fantasy-city-and-sewers": {
+      "folder_name": "Fantasy City & Sewers",
+      "title": "Fantasy City & Sewers",
+      "base_tags": ["urban", "sewer", "streets", "underground"],
+      "setting": "generic"
+    },
+    "fidatov-manor": {
+      "folder_name": "Fidatov Manor",
+      "title": "Fidatov Manor",
+      "base_tags": ["palace", "interior", "gothic", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "fort-knucklebone": {
+      "folder_name": "Fort Knucklebone",
+      "title": "Fort Knucklebone",
+      "base_tags": ["fortification", "infernal", "wasteland", "camp"],
+      "setting": "descent-into-avernus"
+    },
+    "gates-of-barovia-and-ivlis-crossroads": {
+      "folder_name": "Gates of Barovia & Ivlis Crossroads",
+      "title": "Gates of Barovia & Ivlis Crossroads",
+      "base_tags": ["entrance", "road", "gothic", "forest"],
+      "setting": "curse-of-strahd"
+    },
+    "goblin-cave-city": {
+      "folder_name": "Goblin Cave City",
+      "title": "Goblin Cave City",
+      "base_tags": ["cavern", "goblin", "underground", "camp", "urban"],
+      "setting": "generic"
+    },
+    "green-temple-boss-arena": {
+      "folder_name": "Green Temple Boss Arena",
+      "title": "Green Temple Boss Arena",
+      "base_tags": ["temple", "arena", "plant", "natural"],
+      "setting": "generic"
+    },
+    "haunted-village": {
+      "folder_name": "Haunted Village",
+      "title": "Haunted Village",
+      "base_tags": ["village", "ruin", "spirits", "dark", "fog"],
+      "setting": "generic"
+    },
+    "hellish-landing-page-and-world-map": {
+      "folder_name": "Hellish Landing Page and World Map",
+      "title": "Avernus World Map",
+      "base_tags": ["infernal", "wasteland"],
+      "setting": "descent-into-avernus"
+    },
+    "high-hall": {
+      "folder_name": "High Hall",
+      "title": "High Hall",
+      "base_tags": ["temple", "interior", "urban"],
+      "setting": "descent-into-avernus"
+    },
+    "high-hall-catacombs": {
+      "folder_name": "High Hall Catacombs",
+      "title": "High Hall Catacombs",
+      "base_tags": ["crypt", "dungeon", "underground", "dark"],
+      "setting": "descent-into-avernus"
+    },
+    "infernal-war-machine": {
+      "folder_name": "Infernal War Machine",
+      "title": "Infernal War Machine",
+      "base_tags": ["vehicle", "infernal", "fire", "machinery"],
+      "setting": "descent-into-avernus"
+    },
+    "infernal-war-machines": {
+      "folder_name": "Infernal War Machines",
+      "title": "Infernal War Machines Collection",
+      "base_tags": ["vehicle", "infernal", "fire", "machinery"],
+      "setting": "descent-into-avernus"
+    },
+    "krezk-abbey": {
+      "folder_name": "Krezk Abbey",
+      "title": "Abbey of Saint Markovia",
+      "base_tags": ["temple", "ruin", "gothic", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "krezk-mountain-village": {
+      "folder_name": "Krezk Mountain Village",
+      "title": "Village of Krezk",
+      "base_tags": ["village", "mountain", "gothic", "fortification"],
+      "setting": "curse-of-strahd"
+    },
+    "lake-zarovich": {
+      "folder_name": "Lake Zarovich",
+      "title": "Lake Zarovich",
+      "base_tags": ["shore", "water", "forest", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "low-lantern-tavern": {
+      "folder_name": "Low Lantern Tavern",
+      "title": "Low Lantern Tavern",
+      "base_tags": ["tavern", "ship", "docks", "interior"],
+      "setting": "descent-into-avernus"
+    },
+    "mage-lair": {
+      "folder_name": "Mage Lair",
+      "title": "Mage Lair",
+      "base_tags": ["lair", "magic", "interior", "laboratory"],
+      "setting": "generic"
+    },
+    "modular-cave": {
+      "folder_name": "Modular Cave",
+      "title": "Modular Cave",
+      "base_tags": ["cavern", "underground", "natural"],
+      "setting": "generic"
+    },
+    "modular-dungeon-2a": {
+      "folder_name": "Modular Dungeon 2a",
+      "title": "Modular Dungeon 2a",
+      "base_tags": ["dungeon", "interior", "underground"],
+      "setting": "generic"
+    },
+    "modular-dungeon-2b": {
+      "folder_name": "Modular Dungeon 2b",
+      "title": "Modular Dungeon 2b",
+      "base_tags": ["dungeon", "interior", "underground"],
+      "setting": "generic"
+    },
+    "modular-dungeon-pack-1": {
+      "folder_name": "Modular Dungeon Pack 1",
+      "title": "Modular Dungeon Pack 1",
+      "base_tags": ["dungeon", "interior", "underground"],
+      "setting": "generic"
+    },
+    "modular-jungle-pack-1": {
+      "folder_name": "Modular Jungle Pack 1",
+      "title": "Modular Jungle Pack",
+      "base_tags": ["jungle", "natural", "ruin"],
+      "setting": "generic"
+    },
+    "modular-sewer-system": {
+      "folder_name": "Modular Sewer System",
+      "title": "Modular Sewer System",
+      "base_tags": ["sewer", "underground", "water", "urban"],
+      "setting": "generic"
+    },
+    "modular-streets": {
+      "folder_name": "Modular Streets",
+      "title": "Modular Streets",
+      "base_tags": ["urban", "streets", "market"],
+      "setting": "generic"
+    },
+    "modular-tavern": {
+      "folder_name": "Modular Tavern",
+      "title": "Modular Tavern",
+      "base_tags": ["tavern", "interior"],
+      "setting": "generic"
+    },
+    "monk-temple-dojo": {
+      "folder_name": "Monk Temple Dojo",
+      "title": "Monk Temple Dojo",
+      "base_tags": ["temple", "interior"],
+      "setting": "generic"
+    },
+    "monster-pit": {
+      "folder_name": "Monster Pit",
+      "title": "Monster Pit",
+      "base_tags": ["arena", "pit", "underground", "blood"],
+      "setting": "generic"
+    },
+    "mutation-chamber": {
+      "folder_name": "Mutation Chamber",
+      "title": "Mutation Chamber",
+      "base_tags": ["laboratory", "interior", "machinery", "dark"],
+      "setting": "generic"
+    },
+    "necromancers-kitchen": {
+      "folder_name": "Necromancers Kitchen",
+      "title": "Necromancer's Kitchen",
+      "base_tags": ["interior", "dark", "corpse", "laboratory"],
+      "setting": "generic"
+    },
+    "orc-fortress": {
+      "folder_name": "Orc Fortress",
+      "title": "Orc Fortress",
+      "base_tags": ["fortification", "military", "camp"],
+      "setting": "generic"
+    },
+    "otherworldly-arena-ruins": {
+      "folder_name": "Otherworldly Arena Ruins",
+      "title": "Otherworldly Arena Ruins",
+      "base_tags": ["arena", "ruin", "astral", "magic"],
+      "setting": "generic"
+    },
+    "overgrown-ruins": {
+      "folder_name": "Overgrown Ruins",
+      "title": "Overgrown Ruins",
+      "base_tags": ["ruin", "plant", "forest", "natural"],
+      "setting": "generic"
+    },
+    "purple-worm-lair": {
+      "folder_name": "Purple Worm Lair",
+      "title": "Purple Worm Lair",
+      "base_tags": ["lair", "creature", "underground", "cavern"],
+      "setting": "generic"
+    },
+    "razorcliff-cove": {
+      "folder_name": "Razorcliff Cove",
+      "title": "Razorcliff Cove",
+      "base_tags": ["shore", "cliff", "beach", "docks"],
+      "setting": "generic"
+    },
+    "sci-fi-base": {
+      "folder_name": "Sci-Fi Base",
+      "title": "Sci-Fi Base",
+      "base_tags": ["technology", "interior"],
+      "setting": "sci-fi"
+    },
+    "sci-fi-plaza-and-factory": {
+      "folder_name": "Sci-Fi Plaza & Factory",
+      "title": "Sci-Fi Plaza & Factory",
+      "base_tags": ["technology", "urban", "machinery"],
+      "setting": "sci-fi"
+    },
+    "shadow-realm-mountains": {
+      "folder_name": "Shadow Realm Mountains",
+      "title": "Shadow Realm Mountains",
+      "base_tags": ["mountain", "shadow", "dark", "astral"],
+      "setting": "generic"
+    },
+    "ship-the-unwanted-daughter": {
+      "folder_name": "Ship The Unwanted Daughter",
+      "title": "The Unwanted Daughter (Ship)",
+      "base_tags": ["ship", "docks", "interior"],
+      "setting": "generic"
+    },
+    "smuggler-boat-pack": {
+      "folder_name": "Smuggler Boat Pack",
+      "title": "Smuggler Boat Pack",
+      "base_tags": ["ship", "docks", "water", "cargo"],
+      "setting": "generic"
+    },
+    "storms-cry-airship": {
+      "folder_name": "Storms Cry Airship",
+      "title": "Storm's Cry Airship",
+      "base_tags": ["airship", "sky", "vehicle"],
+      "setting": "generic"
+    },
+    "svalich-road": {
+      "folder_name": "Svalich Road",
+      "title": "Svalich Road",
+      "base_tags": ["road", "forest", "gothic", "fog"],
+      "setting": "curse-of-strahd"
+    },
+    "temple-of-light": {
+      "folder_name": "Temple of Light",
+      "title": "Temple of Light",
+      "base_tags": ["temple", "celestial", "illumination", "altar"],
+      "setting": "generic"
+    },
+    "the-asteroid-fight": {
+      "folder_name": "The Asteroid Fight",
+      "title": "The Asteroid Fight",
+      "base_tags": ["astral", "platform"],
+      "setting": "generic"
+    },
+    "the-death-house": {
+      "folder_name": "The Death House",
+      "title": "Death House",
+      "base_tags": ["interior", "gothic", "dark", "crypt", "spirits"],
+      "setting": "curse-of-strahd"
+    },
+    "the-grand-cemetery": {
+      "folder_name": "The Grand Cemetery",
+      "title": "The Grand Cemetery",
+      "base_tags": ["graveyard", "crypt", "dark", "gothic"],
+      "setting": "generic"
+    },
+    "the-headisport-harbour": {
+      "folder_name": "The Headisport Harbour",
+      "title": "Headisport Harbour",
+      "base_tags": ["docks", "ship", "urban", "water"],
+      "setting": "generic"
+    },
+    "the-magnificent-mansion": {
+      "folder_name": "The Magnificent Mansion",
+      "title": "Magnificent Mansion",
+      "base_tags": ["palace", "interior", "magic"],
+      "setting": "generic"
+    },
+    "the-molten-court": {
+      "folder_name": "The Molten Court",
+      "title": "The Molten Court",
+      "base_tags": ["throne", "infernal", "lava", "fire"],
+      "setting": "generic"
+    },
+    "the-molten-court-2": {
+      "folder_name": "The Molten Court 2",
+      "title": "The Molten Court 2",
+      "base_tags": ["throne", "infernal", "lava", "fire"],
+      "setting": "generic"
+    },
+    "the-mourn-oak": {
+      "folder_name": "The Mourn-Oak",
+      "title": "The Mourn-Oak",
+      "base_tags": ["forest", "tree", "dark", "magic"],
+      "setting": "generic"
+    },
+    "the-old-bonegrinder": {
+      "folder_name": "The Old Bonegrinder",
+      "title": "Old Bonegrinder",
+      "base_tags": ["ruin", "gothic", "dark", "interior"],
+      "setting": "curse-of-strahd"
+    },
+    "the-old-cemetery": {
+      "folder_name": "The Old Cemetery",
+      "title": "The Old Cemetery",
+      "base_tags": ["graveyard", "gothic", "dark", "ruin"],
+      "setting": "generic"
+    },
+    "the-spire-monastery": {
+      "folder_name": "The Spire Monastery",
+      "title": "The Spire Monastery",
+      "base_tags": ["temple", "mountain"],
+      "setting": "generic"
+    },
+    "the-underground-arena": {
+      "folder_name": "The Underground Arena",
+      "title": "The Underground Arena",
+      "base_tags": ["arena", "underground", "blood", "pit"],
+      "setting": "generic"
+    },
+    "tomb-of-nhek-aachariya": {
+      "folder_name": "Tomb of Nhek Aachariya",
+      "title": "Tomb of Nhek Aachariya",
+      "base_tags": ["crypt", "dungeon", "treasure"],
+      "setting": "generic"
+    },
+    "tser-falls": {
+      "folder_name": "Tser Falls",
+      "title": "Tser Falls",
+      "base_tags": ["waterfall", "water", "forest", "gothic"],
+      "setting": "curse-of-strahd"
+    },
+    "tser-pool-camp": {
+      "folder_name": "Tser Pool Camp",
+      "title": "Tser Pool Camp",
+      "base_tags": ["camp", "water", "forest", "gothic"],
+      "setting": "curse-of-strahd"
+    },
+    "tsolenka-mountain-pass": {
+      "folder_name": "Tsolenka Mountain Pass",
+      "title": "Tsolenka Pass",
+      "base_tags": ["mountain", "road", "bridge", "snow", "gothic"],
+      "setting": "curse-of-strahd"
+    },
+    "underdark-bridge": {
+      "folder_name": "Underdark Bridge",
+      "title": "Underdark Bridge",
+      "base_tags": ["underground", "bridge", "dark", "chasm"],
+      "setting": "generic"
+    },
+    "underdark-spider-titan": {
+      "folder_name": "Underdark Spider Titan",
+      "title": "Underdark Spider Titan",
+      "base_tags": ["underground", "creature", "dark", "webs"],
+      "setting": "generic"
+    },
+    "underwater-shipwreck": {
+      "folder_name": "Underwater Shipwreck",
+      "title": "Underwater Shipwreck",
+      "base_tags": ["underwater", "wreck", "ship", "coral"],
+      "setting": "generic"
+    },
+    "vallaki-bluewater-inn": {
+      "folder_name": "Vallaki Bluewater Inn",
+      "title": "Blue Water Inn",
+      "base_tags": ["tavern", "interior", "gothic"],
+      "setting": "curse-of-strahd"
+    },
+    "vallaki-burgomaster-and-town-map": {
+      "folder_name": "Vallaki Burgomaster & Town Map",
+      "title": "Vallaki Burgomaster's Mansion",
+      "base_tags": ["palace", "interior", "gothic", "urban"],
+      "setting": "curse-of-strahd"
+    },
+    "vallaki-lakeside-cemetery": {
+      "folder_name": "Vallaki Lakeside Cemetery",
+      "title": "Vallaki Cemetery (Stonegarden)",
+      "base_tags": ["graveyard", "gothic", "dark", "shore"],
+      "setting": "curse-of-strahd"
+    },
+    "vallaki-orphanage": {
+      "folder_name": "Vallaki Orphanage",
+      "title": "Vallaki Orphanage",
+      "base_tags": ["interior", "gothic", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "vallaki-st-andrals-church": {
+      "folder_name": "Vallaki St. Andral's Church",
+      "title": "St. Andral's Church",
+      "base_tags": ["temple", "interior", "gothic", "altar"],
+      "setting": "curse-of-strahd"
+    },
+    "vallaki-streets-and-coffinmakers-shop": {
+      "folder_name": "Vallaki Streets & Coffinmakers Shop",
+      "title": "Vallaki Streets & Coffinmaker",
+      "base_tags": ["urban", "streets", "gothic", "shop"],
+      "setting": "curse-of-strahd"
+    },
+    "vallaki-wachter-house": {
+      "folder_name": "Vallaki Wachter House",
+      "title": "Wachterhaus",
+      "base_tags": ["palace", "interior", "gothic", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "van-richtens-tower": {
+      "folder_name": "Van Richtens Tower",
+      "title": "Van Richten's Tower",
+      "base_tags": ["tower", "interior", "gothic", "magic"],
+      "setting": "curse-of-strahd"
+    },
+    "vanthampur-dungeon": {
+      "folder_name": "Vanthampur Dungeon",
+      "title": "Vanthampur Dungeon",
+      "base_tags": ["dungeon", "interior", "infernal", "prison"],
+      "setting": "descent-into-avernus"
+    },
+    "vanthampur-villa": {
+      "folder_name": "Vanthampur Villa",
+      "title": "Vanthampur Villa",
+      "base_tags": ["palace", "interior", "infernal"],
+      "setting": "descent-into-avernus"
+    },
+    "victorian-living-room": {
+      "folder_name": "Victorian Living Room",
+      "title": "Victorian Living Room",
+      "base_tags": ["interior", "gothic"],
+      "setting": "generic"
+    },
+    "vistani-camp": {
+      "folder_name": "Vistani Camp",
+      "title": "Vistani Camp",
+      "base_tags": ["camp", "forest", "fire", "gothic"],
+      "setting": "curse-of-strahd"
+    },
+    "waterfall-cave": {
+      "folder_name": "Waterfall Cave",
+      "title": "Waterfall Cave",
+      "base_tags": ["cavern", "waterfall", "water", "natural"],
+      "setting": "generic"
+    },
+    "werewolf-den": {
+      "folder_name": "Werewolf Den",
+      "title": "Werewolf Den",
+      "base_tags": ["lair", "forest", "creature", "dark"],
+      "setting": "curse-of-strahd"
+    },
+    "white-dragon-lair": {
+      "folder_name": "White Dragon Lair",
+      "title": "White Dragon Lair",
+      "base_tags": ["lair", "frozen", "cavern", "treasure"],
+      "setting": "generic"
+    },
+    "wizard-of-wines": {
+      "folder_name": "Wizard of Wines",
+      "title": "Wizard of Wines Winery",
+      "base_tags": ["interior", "gothic", "forest"],
+      "setting": "curse-of-strahd"
+    },
+    "yester-hill-druid-circle": {
+      "folder_name": "Yester Hill Druid Circle",
+      "title": "Yester Hill",
+      "base_tags": ["hill", "standing-stone", "forest", "dark"],
+      "setting": "curse-of-strahd"
+    }
+  }
+}
