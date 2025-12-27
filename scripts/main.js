@@ -83,13 +83,13 @@ class MapBrowserApp extends HandlebarsApplicationMixin(ApplicationV2) {
         if (locationMatch) return true;
 
         // Check smart tags
-        const tagMatch = loc.smart_tags.some(tag => queryTerms.some(term => tag.includes(term)));
+        const tagMatch = loc.smart_tags?.some(tag => queryTerms.some(term => tag.includes(term)));
         if (tagMatch) return true;
 
         // Check flavor names and their tags
-        const flavorMatch = loc.flavors.some(f =>
-          f.display_name.toLowerCase().includes(query) ||
-          f.smart_tags.some(tag => queryTerms.some(term => tag.includes(term)))
+        const flavorMatch = loc.flavors?.some(f =>
+          f.display_name?.toLowerCase().includes(query) ||
+          f.smart_tags?.some(tag => queryTerms.some(term => tag.includes(term)))
         );
         if (flavorMatch) return true;
 
